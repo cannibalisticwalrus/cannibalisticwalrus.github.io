@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import NavTabs from "./components/navTabs/NavTabs";
 
 function App() {
   return (
@@ -10,13 +11,7 @@ function App() {
         <div className="main-page">
           <img src={logo} className="App-logo" alt="logo" />
         </div>
-        <div className="tabs-container">
-          <div className="tab">Cybersecurity</div>
-          <div className="tab">Software Development</div>
-          <div className="tab">Art Portfolio</div>
-          <div className="tab">About</div>
-          <div className="tab">Blog</div>
-        </div>
+        <NavTabs></NavTabs>
       </header>
     </div>
   );
