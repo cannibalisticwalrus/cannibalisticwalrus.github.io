@@ -1,46 +1,27 @@
-# Getting Started with Create React App
+# What is this project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a website that hosts my Resumes and Portfolios so people can interact with my work a little more than the average resume.
 
-## Available Scripts
+## What is the purpose of this project
 
-In the project directory, you can run:
+Well, this project serves two functions.  The first is a resume that is a little more crafted and currated than what I can traditionally fit on a one-page pdf.  The second function is to prove that I do know (at least) the basics of full stack development.
 
-### `npm start`
+### Well that is kind of cool.  Done before but still interesting.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+I am not trying to blow any minds here.  Just trying to show and share my knowledge (hence why its publicly accessable).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Is there anything else that you want us to know
 
-### `npm test`
+I mean, sure.  I like Rock Climbing and Long Walks on the Beach.  Idk.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+As for the Website, it is programmed mostly using React, Typescript and Sass.  I do know javascript but I find that Typescript helps me create much cleaner code than javascript can do by itself.  Luckily typescript is transpiled into javascript so it is the same at runtime and (although I am still learning and understanding this) it only takes removing the forced types in typescript to completely convert typescript to javascript.
 
-### `npm run build`
+Sass is used because I like the very basic but very useful ability to call variables in a clean way. (Native CSS variable are always gross looking) but otherwise it is used the exact same as CSS.  This site also uses a whole lot of CSS that didnt really need the additional functionality of scss.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### What about the blog "Coming Soon"? When will that be up?
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This site as a whole is a work in progress.  The blog is WAY far on the backlog so it will be coming soon for a long time.  (So maybe coming no-so-soon would be more accurate).  The idea is the blog will contain personal projects that will show parts of my skillsets/knowledge that wouldn't make sense on a resume.  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Where do I go if I want to know more about you
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Ummm...great question.  Maybe linkedin?  I will eventually have a way to contact me either on this page or somewhere else but I want to ensure that my information is not super public so that I dont get spammed all the time before I share anything. 
