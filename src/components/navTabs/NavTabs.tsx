@@ -1,7 +1,10 @@
-import React from "react";
+import React from 'react';
 
-function Resume(){
-    return(
+
+class NavTabs extends React.Component{
+
+  render() {
+          return(
         <div className="tabs-container">
         <div className="tab">Cybersecurity</div>
         <div className="tab">Software Development</div>
@@ -10,6 +13,7 @@ function Resume(){
         <div className="tab">Blog</div>
       </div>
     );
-}
+  }
 
-export default Resume;
+}
+export default NavTabs;
