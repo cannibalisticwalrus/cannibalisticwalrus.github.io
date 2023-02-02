@@ -4,7 +4,7 @@ This project is a website that hosts my Resumes and Portfolios so people can int
 
 ## What is the purpose of this project
 
-Well, this project serves two functions.  The first is a resume that is a little more crafted and currated than what I can traditionally fit on a one-page pdf.  The second function is to prove that I do know (at least) the basics of full stack development.
+Well, this project serves two functions.  The first is a resume that is a little more crafted and currated than what I can traditionally fit on a one-page pdf.  The second function is to prove that I do know (at least) the basics of full stack development (although at the moment it only proves Front-End Development).
 
 ### Well that is kind of cool.  Done before but still interesting.
 
