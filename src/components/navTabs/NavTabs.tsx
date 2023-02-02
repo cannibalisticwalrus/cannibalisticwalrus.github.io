@@ -1,7 +1,7 @@
 import React from 'react';
 
-class NavTabs extends React.Component{
 
+class NavTabs extends React.Component{
 
   render() {
           return(
