@@ -1,27 +1,30 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import { Outlet, Link } from "react-router-dom";
+import "./Layout.css";
 
-function App() {
+const Layout = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <div>Stephen Jackiw's Resumes</div>
-        <div className="main-page">
-          <img src={logo} className="App-logo" alt="logo" />
-        </div>
-        <Tabs>
-          <TabList>
-            <Tab>Information Technology</Tab>
-            <Tab>The Arts</Tab>
-            <Tab>About</Tab>
-            <Tab>Blog</Tab>
-          </TabList>
-        </Tabs>
-      </header>
-    </div>
+    <>
+      <nav>
+        <li>
+          <Link to="/Home">Home</Link>
+        </li>
+        <li>
+          <Link to="/Resume">Resume</Link>
+        </li>
+        <li>
+          <Link to="/Portfolio">Portfolio</Link>
+        </li>
+        <li>
+          <Link to="/About">About</Link>
+        </li>
+        <li>
+          <Link to="./Blog">Blog</Link>
+        </li>
+      </nav>
+
+      <Outlet />
+    </>
   );
 }
-
-export default App;
+export default Layout;
