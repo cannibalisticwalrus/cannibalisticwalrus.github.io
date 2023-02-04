@@ -5,26 +5,41 @@ import "./Layout.css";
 const Layout = () => {
   return (
     <>
-      <nav>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/Resume">Resume</Link>
-        </li>
-        <li>
-          <Link to="/Portfolio">Portfolio</Link>
-        </li>
-        <li>
-          <Link to="/About">About</Link>
-        </li>
-        <li>
-          <Link to="./Blog">Blog</Link>
-        </li>
-      </nav>
-
-      <Outlet />
+      <div className="Root">
+        <div className="SidebarContainer">
+          <nav>
+            <div className="NavItem">
+              <Link className="NavItemText" to="/">
+                Home
+              </Link>
+            </div>
+            <div className="NavItem">
+              <Link className="NavItemText" to="/Resume">
+                Resume
+              </Link>
+            </div>
+            <div className="NavItem">
+              <Link className="NavItemText" to="/Portfolio">
+                Portfolio
+              </Link>
+            </div>
+            <div className="NavItem">
+              <Link className="NavItemText" to="/About">
+                About
+              </Link>
+            </div>
+            <div className="NavItem">
+              <Link className="NavItemText" to="./Blog">
+                Blog
+              </Link>
+            </div>
+          </nav>
+        </div>
+        <div className="OutletContainer">
+          <Outlet />
+        </div>
+      </div>
     </>
   );
-}
+};
 export default Layout;

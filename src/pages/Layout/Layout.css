@@ -1,73 +1,33 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.Root {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  font-size: calc(24px + 2vmin);
   background-color: #282c34;
-  min-height: 100vh;
+}
+
+.SidebarContainer {
   display: flex;
-  flex-direction: column;
+  height: 100vh;
+  width: 10vw;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-left: 2%;
+}
+
+.NavItem{
+  margin-bottom: 15%;
+}
+
+.NavItemText {
   color: white;
+  padding: 5%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-.flex-columns
-{
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-.main-page{
-  display: flex;
-  flex-direction: row-reverse;
-  flex-grow: 4;
-}
-
-.tabs-container
-{
-  margin-left: 1%;
-  margin-right: 2.5%;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  height: 50vh;
-}
-
-.tab{
-  text-align: left;
-  flex-grow: 1;
-}
-
-.tab:hover{
+.NavItemText:hover {
   background-color: #61dafb;
-  border-radius: 5px;
-  border-color: rgb(32, 95, 151);
-  border-width: 100px;
+  border-radius: 5pt;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.OutletContainer {
+  width: 80vw;
 }
