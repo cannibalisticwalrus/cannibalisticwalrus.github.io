@@ -1,0 +1,21 @@
+.ReusmeRoot{
+    color:white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.JobInformation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 5%;
+    font-size: 2.25rem;
+}
+
+.TasksContainer{
+    font-size: 2rem;
+    padding-top: 2.5%;
+    align-self: flex-start;
+}
