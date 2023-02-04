@@ -14,18 +14,18 @@
   padding-left: 2%;
 }
 
+.NavItem{
+  margin-bottom: 15%;
+}
+
 .NavItemText {
   color: white;
+  padding: 5%;
 }
 
-.NavItem{
-  height: 4%;
-}
-
-.NavItem:hover {
+.NavItemText:hover {
   background-color: #61dafb;
   border-radius: 5pt;
-  height: 10%
 }
 
 .OutletContainer {
