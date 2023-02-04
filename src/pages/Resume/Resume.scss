@@ -6,7 +6,7 @@
     justify-content: center;
 }
 
-.JobInformation{
+.JobHeaders{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -14,8 +14,20 @@
     font-size: 2.25rem;
 }
 
+.JobBody{
+    display:flex;
+    flex-direction: row;
+    padding: 3%;
+}
+
+.Logo{
+    height:10vw;
+    padding: 2%;
+}
+
 .TasksContainer{
     font-size: 2rem;
-    padding-top: 2.5%;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
     align-self: flex-start;
 }
