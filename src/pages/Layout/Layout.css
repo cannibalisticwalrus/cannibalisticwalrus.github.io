@@ -1,58 +1,33 @@
 .Root {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content:space-between;
+  font-size: calc(24px + 2vmin);
+  background-color: #282c34;
+}
+
+.SidebarContainer {
+  display: flex;
+  height: 100vh;
+  width: 10vw;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-left: 2%;
+}
+
+.NavItemText {
   color: white;
 }
 
-.NavItem {
+.NavItem{
+  height: 4%;
+}
+
+.NavItem:hover {
   background-color: #61dafb;
+  border-radius: 5pt;
+  height: 10%
 }
 
-.flex-columns
-{
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-.main-page{
-  display: flex;
-  flex-direction: row-reverse;
-  flex-grow: 4;
-}
-
-.tabs-container
-{
-  margin-left: 1%;
-  margin-right: 2.5%;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  height: 50vh;
-}
-
-.tab{
-  text-align: left;
-  flex-grow: 1;
-}
-
-.tab:hover{
-  background-color: #61dafb;
-  border-radius: 5px;
-  border-color: rgb(32, 95, 151);
-  border-width: 100px;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.OutletContainer {
+  width: 80vw;
 }

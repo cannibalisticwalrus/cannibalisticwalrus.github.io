@@ -6,26 +6,39 @@ const Layout = () => {
   return (
     <>
       <div className="Root">
-        <nav>
-          <li className="NavItem">
-            <Link to="/">Home</Link>
-          </li>
-          <li className="NavItem">
-            <Link to="/Resume">Resume</Link>
-          </li>
-          <li className="NavItem">
-            <Link to="/Portfolio">Portfolio</Link>
-          </li>
-          <li className="NavItem">
-            <Link to="/About">About</Link>
-          </li>
-          <li className="NavItem">
-            <Link to="./Blog">Blog</Link>
-          </li>
-        </nav>
+        <div className="SidebarContainer">
+          <nav>
+            <div className="NavItem">
+              <Link className="NavItemText" to="/">
+                Home
+              </Link>
+            </div>
+            <div className="NavItem">
+              <Link className="NavItemText" to="/Resume">
+                Resume
+              </Link>
+            </div>
+            <div className="NavItem">
+              <Link className="NavItemText" to="/Portfolio">
+                Portfolio
+              </Link>
+            </div>
+            <div className="NavItem">
+              <Link className="NavItemText" to="/About">
+                About
+              </Link>
+            </div>
+            <div className="NavItem">
+              <Link className="NavItemText" to="./Blog">
+                Blog
+              </Link>
+            </div>
+          </nav>
+        </div>
+        <div className="OutletContainer">
+          <Outlet />
+        </div>
       </div>
-
-      <Outlet />
     </>
   );
 };
