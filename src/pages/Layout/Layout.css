@@ -1,7 +1,7 @@
 .Root {
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content:flex-start;
   font-size: calc(24px + 2vmin);
   background-color: #282c34;
 }
@@ -29,5 +29,5 @@
 }
 
 .OutletContainer {
-  width: 80vw;
+  width: 90vw;
 }

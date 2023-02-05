@@ -6,6 +6,12 @@
     justify-content: center;
 }
 
+.AllJobsContainer{
+    overflow: scroll;
+    height: 65vh;
+    width: 85vw;
+}
+
 .JobHeaders{
     display: flex;
     flex-direction: row;
@@ -17,16 +23,22 @@
 .JobBody{
     display:flex;
     flex-direction: row;
-    padding: 3%;
+    padding: 1%;
 }
 
 .Logo{
-    height:10vw;
+    height:5vw;
     padding: 2%;
 }
 
+.AdditionalInformation{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .TasksContainer{
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-top: 1.5%;
     padding-bottom: 1%;
     align-self: flex-start;
