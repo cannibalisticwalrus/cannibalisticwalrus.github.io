@@ -4,7 +4,7 @@ import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
 import "./index.css";
 import Layout from "./pages/Layout/Layout";
-import Home from "./pages/Home/Home";
+import Blog from "./pages/Blog/Blog";
 import About from "./pages/About/About";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import Resume from "./pages/Resume/Resume";
@@ -15,10 +15,10 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home />}></Route>
-          <Route path='About' element={<About />}></Route>
+          <Route index element={<About />}></Route>
           <Route path='Portfolio' element={<Portfolio />}></Route>
           <Route path='Resume' element={<Resume />}></Route>
+          <Route path='Blog' element={<Blog />}></Route>
           <Route path='*' element={<NoPage />} />
         </Route>
       </Routes>

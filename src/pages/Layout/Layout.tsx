@@ -9,11 +9,6 @@ const Layout = () => {
         <div className="SidebarContainer">
           <nav>
             <div className="NavItem">
-              <Link className="NavItemText" to="/">
-                Home
-              </Link>
-            </div>
-            <div className="NavItem">
               <Link className="NavItemText" to="/Resume">
                 Resume
               </Link>
@@ -24,7 +19,7 @@ const Layout = () => {
               </Link>
             </div>
             <div className="NavItem">
-              <Link className="NavItemText" to="/About">
+              <Link className="NavItemText" to="/">
                 About
               </Link>
             </div>
