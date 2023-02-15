@@ -9,30 +9,6 @@ const Portfolio = () => {
       <div className="PortfolioBody">
         <div>Coming Soon! But you can see the test below!</div>
         <div className="PortfolioDisplay">
-          <div className="GridItemContainer">
-            This item is a Local Portfolio Grid Item Test
-          </div>
-          {/* <div className="GridItemPapa">
-            <img
-              className="GridItem"
-              src={TestImage}
-              alt="Ford Logo Found at: https://upload.wikimedia.org/wikipedia/commons/3/3e/Ford_logo_flat.svg"
-            />
-            <div className="TextContent">
-              <div className="Text">This is a test.</div>
-            </div>
-          </div> */}
-
-<div className="GridItemContainer">
-            <PortfolioGridItem></PortfolioGridItem>
-          </div>
-          <div className="GridItemContainer">
-            <PortfolioGridItem></PortfolioGridItem>
-          </div>
-
-          <div className="GridItemContainer">
-            Items after this are just images with the GridItem classname
-          </div>
           <img
             className="GridItemContainer"
             src={TestImage}
