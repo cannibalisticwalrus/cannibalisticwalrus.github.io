@@ -23,14 +23,16 @@ const Portfolio = () => {
             </div>
           </div> */}
 
-          <div className="GridItemContainer">
-            This item is an Portfolio Grid Item Component Test
+<div className="GridItemContainer">
+            <PortfolioGridItem></PortfolioGridItem>
           </div>
           <div className="GridItemContainer">
             <PortfolioGridItem></PortfolioGridItem>
           </div>
 
-          <div className="GridItemContainer">Items after this are just images with the GridItem classname</div>
+          <div className="GridItemContainer">
+            Items after this are just images with the GridItem classname
+          </div>
           <img
             className="GridItemContainer"
             src={TestImage}
