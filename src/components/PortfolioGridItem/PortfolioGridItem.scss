@@ -1,59 +1,13 @@
-// .GridItem {
-//   position: relative;
-//   padding: 0;
-//   width: auto;
-//   display: block;
-//   cursor: pointer;
-//   overflow: hidden;
-//   width: 100%;
-//   background-color: grey;
-//   border-style: solid;
-//   border-color: maroon;
-//   border-width: 10px;
-// }
-
-// .GridItem .GridItemTextContainer:hover {
-//   opacity: 1;
-// }
-
-// .GridImage {
-//   width: 100%;
-//   height: auto;
-// }
-// .GridImage:hover {
-//   opacity: 50%;
-// }
-// .GridItemTextContainer {
-//   opacity: 0;
-//   font-size: 1rem;
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   color: white;
-//   //background-color: rgba(200, 200, 200, 0.5);
-//   width: 100%;
-//   height: 100%;
-//   text-align: center;
-// }
-
-// .GridItem .GridItemTextContainer .GridItemText {
-//   opacity: 1;
-// }
-
-// .GridItem .GridItemTextContainer:hover .GridItemText {
-//   opacity: 1;
-// }
-
 .GridItem {
   cursor: pointer;
   overflow: hidden;
   width: 350px;
   height: 350px;
   position:relative;
+  margin-bottom: 1%;
   // border-style: solid;
   // border-color: maroon;
   // border-width: 10px;
-  background-color: darkslategrey;
 }
 
 .GridItemContent{
@@ -65,6 +19,10 @@
   max-height: 100%;
   width: auto;
   height: auto;
+}
+
+.GridItem:hover{
+  background-color: black;
 }
 
 .GridItem:hover .GridItemTextContainer{

@@ -10,6 +10,13 @@ const Portfolio = () => {
         <div>Coming Soon! But you can see the test below!</div>
         <div className="PortfolioDisplay">
           <PortfolioGridItem></PortfolioGridItem>
+          <PortfolioGridItem></PortfolioGridItem>
+          <PortfolioGridItem></PortfolioGridItem>
+          <PortfolioGridItem></PortfolioGridItem>
+          <PortfolioGridItem></PortfolioGridItem>
+          <PortfolioGridItem></PortfolioGridItem>
+          <PortfolioGridItem></PortfolioGridItem>
+          <PortfolioGridItem></PortfolioGridItem>
         </div>
       </div>
     </div>
