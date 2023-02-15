@@ -9,46 +9,7 @@ const Portfolio = () => {
       <div className="PortfolioBody">
         <div>Coming Soon! But you can see the test below!</div>
         <div className="PortfolioDisplay">
-          <img
-            className="GridItemContainer"
-            src={TestImage}
-            alt="Ford Logo Found at: https://upload.wikimedia.org/wikipedia/commons/3/3e/Ford_logo_flat.svg"
-          />
-          <img
-            className="GridItemContainer"
-            src={TestImage}
-            alt="Ford Logo Found at: https://upload.wikimedia.org/wikipedia/commons/3/3e/Ford_logo_flat.svg"
-          />
-          <img
-            className="GridItemContainer"
-            src={TestImage}
-            alt="Ford Logo Found at: https://upload.wikimedia.org/wikipedia/commons/3/3e/Ford_logo_flat.svg"
-          />
-          <img
-            className="GridItemContainer"
-            src={TestImage}
-            alt="Ford Logo Found at: https://upload.wikimedia.org/wikipedia/commons/3/3e/Ford_logo_flat.svg"
-          />
-          <img
-            className="GridItemContainer"
-            src={TestImage}
-            alt="Ford Logo Found at: https://upload.wikimedia.org/wikipedia/commons/3/3e/Ford_logo_flat.svg"
-          />
-          <img
-            className="GridItemContainer"
-            src={TestImage}
-            alt="Ford Logo Found at: https://upload.wikimedia.org/wikipedia/commons/3/3e/Ford_logo_flat.svg"
-          />
-          <img
-            className="GridItemContainer"
-            src={TestImage}
-            alt="Ford Logo Found at: https://upload.wikimedia.org/wikipedia/commons/3/3e/Ford_logo_flat.svg"
-          />
-          <img
-            className="GridItemContainer"
-            src={TestImage}
-            alt="Ford Logo Found at: https://upload.wikimedia.org/wikipedia/commons/3/3e/Ford_logo_flat.svg"
-          />
+          <PortfolioGridItem></PortfolioGridItem>
         </div>
       </div>
     </div>
