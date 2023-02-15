@@ -1,7 +1,55 @@
-.PortfolioRoot{
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.PortfolioRoot {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.PortfolioBody {
+  overflow: scroll;
+  height: 75vh;
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.PortfolioDisplay {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  border-width: 10px;
+  border-color:pink;
+  border-style: solid;
+}
+
+.GridItemContainer {
+  width: 25%;
+  height: auto;
+  border-width: 10px;
+  border-color:red;
+  border-style: solid;
+}
+
+.GridItemContainer:hover{
+    opacity: .5;
+}
+
+
+@media only screen and (min-width: 1080px) {
+  .GridItemContainer {
+    width: 33.3333%;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .GridItemContainer {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .GridItemContainer {
+    width: 100%;
+  }
 }
