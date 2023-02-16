@@ -2,17 +2,25 @@ import React from "react";
 import "./PortfolioGridItem.scss";
 import TestImage from "../../Ford_logo_flat.svg.png";
 
-const PortfolioGridItem = () => {
+interface GridItem{
+  imgPath: string;
+  title: string;
+  description: string;
+  link?: string;
+  price?: string;
+}
+
+const PortfolioGridItem = (props:GridItem) => {
   return (
     <div className="GridItem">
       <div className="GridItemContent">
         <img
           className="GridImage"
-          src={TestImage}
-          alt="Ford Logo Found at: https://upload.wikimedia.org/wikipedia/commons/3/3e/Ford_logo_flat.svg"
+          src={props.imgPath}
+          alt="Test Images Found At https://picsum.photos/350"
         />
         <div className="GridItemTextContainer">
-          <div className="GridItemText">This is a test.</div>
+          <div className="GridItemText">{props.title}</div>
         </div>
       </div>
     </div>
