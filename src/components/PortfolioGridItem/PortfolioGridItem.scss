@@ -18,26 +18,28 @@
   height: auto;
 }
 
-.GridItem:hover{
-  background-color: black;
-}
-
-.GridItem:hover .GridItemTextContainer{
-  opacity: 1;
-}
-
 .GridItemTextContainer {
   opacity: 0;
   font-size: 2.5rem;
   text-align: center;
+  bottom: 0+2.5rem;
+  left: 0;
+  position:absolute;  
 
 }
 
-.GridItem:hover .GridImage{
-  opacity: .5;
+.GridItem:hover{
+  .GridItemTextContainer{
+    opacity: 1;
+  }
+  
+  .GridImage{
+    opacity: .5;
+  }
+  
+  .GridItemText {
+    opacity: 1;
+  }
+  
 }
 
-
-.GridItem:hover .GridItemText {
-  opacity: 1;
-}
