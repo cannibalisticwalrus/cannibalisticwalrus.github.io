@@ -29,17 +29,17 @@
 }
 
 .GridItem:hover{
-  //background-color: black;
+  .GridItemTextContainer{
+    opacity: 1;
+  }
+  
+  .GridImage{
+    opacity: .5;
+  }
+  
+  .GridItemText {
+    opacity: 1;
+  }
+  
 }
 
-.GridItem:hover .GridItemTextContainer{
-  opacity: 1;
-}
-
-.GridItem:hover .GridImage{
-  opacity: .5;
-}
-
-.GridItem:hover .GridItemText {
-  opacity: 1;
-}
