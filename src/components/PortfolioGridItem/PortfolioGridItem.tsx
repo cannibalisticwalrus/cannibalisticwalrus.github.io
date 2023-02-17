@@ -2,7 +2,7 @@ import React from "react";
 import "./PortfolioGridItem.scss";
 import TestImage from "../../Ford_logo_flat.svg.png";
 
-interface GridItem{
+interface GridItem {
   imgPath: string;
   title: string;
   description: string;
@@ -10,7 +10,7 @@ interface GridItem{
   price?: string;
 }
 
-const PortfolioGridItem = (props:GridItem) => {
+const PortfolioGridItem = (props: GridItem) => {
   return (
     <div className="GridItem">
       <div className="GridItemContent">

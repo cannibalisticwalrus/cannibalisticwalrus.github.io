@@ -1,7 +1,7 @@
 .Root {
   display: flex;
   flex-direction: row;
-  justify-content:flex-start;
+  justify-content: flex-start;
   font-size: calc(24px + 2vmin);
   background-color: #282c34;
 }
@@ -14,7 +14,7 @@
   padding-left: 2%;
 }
 
-.NavItem{
+.NavItem {
   margin-bottom: 15%;
 }
 
