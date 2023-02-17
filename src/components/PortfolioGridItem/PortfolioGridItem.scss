@@ -3,12 +3,12 @@
   overflow: hidden;
   width: 350px;
   height: 350px;
-  position:relative;
+  position: relative;
   margin-bottom: 1%;
 }
 
-.GridItemContent{
-  position:absolute;
+.GridItemContent {
+  position: absolute;
 }
 
 .GridImage {
@@ -24,22 +24,19 @@
   text-align: center;
   bottom: 0+2.5rem;
   left: 0;
-  position:absolute;  
-
+  position: absolute;
 }
 
-.GridItem:hover{
-  .GridItemTextContainer{
+.GridItem:hover {
+  .GridItemTextContainer {
     opacity: 1;
   }
-  
-  .GridImage{
-    opacity: .5;
+
+  .GridImage {
+    opacity: 0.5;
   }
-  
+
   .GridItemText {
     opacity: 1;
   }
-  
 }
-
