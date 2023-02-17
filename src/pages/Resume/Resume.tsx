@@ -3,7 +3,7 @@ import FordLogo from "../../Ford_logo_flat.svg.png";
 
 const Resume = () => {
   return (
-    <div className="ReusmeRoot">
+    <div className="ReusmeRoot" id="#root">
       <h1>Resume</h1>
       <div className="AllJobsContainer">
         <div className="JobContainer" id="Ford-CyberEngineer">

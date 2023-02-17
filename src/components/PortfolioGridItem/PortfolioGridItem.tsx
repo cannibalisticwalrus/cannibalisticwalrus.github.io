@@ -12,7 +12,7 @@ interface GridItem {
 
 const PortfolioGridItem = (props: GridItem) => {
   return (
-    <div className="GridItem">
+    <div className="GridItem" id="#root">
       <div className="GridItemContent">
         <img
           className="GridImage"

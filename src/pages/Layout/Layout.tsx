@@ -5,7 +5,7 @@ import "./Layout.css";
 const Layout = () => {
   return (
     <>
-      <div className="Root">
+      <div className="Root" id="#root">
         <div className="SidebarContainer">
           <nav>
             <div className="NavItem">

@@ -3,7 +3,7 @@ import SpanishSelfie from "../../SpanishSelfie.jpg";
 
 const About = () => {
   return (
-    <div className="AboutRoot">
+    <div className="AboutRoot" id="#root">
       <h1 className="AboutHeader">About Me</h1>
       <img
         className="ImageContainer"

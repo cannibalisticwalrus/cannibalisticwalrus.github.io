@@ -3,7 +3,7 @@ import PortfolioGridItem from "../../components/PortfolioGridItem/PortfolioGridI
 
 const Portfolio = () => {
   return (
-    <div className="PortfolioRoot">
+    <div className="PortfolioRoot" id="#root">
       <h1>Portfolio</h1>
       <div className="PortfolioBody">
         <div>Coming Soon! But you can see the test below!</div>
