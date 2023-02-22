@@ -4,7 +4,7 @@ import { Squash as Hamburger } from "hamburger-react";
 import "./Layout.css";
 
 const Layout = () => {
-  const [showSidebar, setShowSidebar] = useState(true);
+  const [showSidebar, setShowSidebar] = useState(window.innerWidth >= 768);
 
   const handleShowSidebar = () => {
     setShowSidebar(!showSidebar);
@@ -16,7 +16,7 @@ const Layout = () => {
       <div className="Root" id="#root">
         <div className="SidebarContainer">
           <div className="MenuIcon" onClick={handleShowSidebar}>
-            <Hamburger toggled={showSidebar}></Hamburger>
+            <Hamburger toggled={showSidebar} color="#ffffff"></Hamburger>
           </div>
           <div className="MenuIconEmpty">
           </div>
