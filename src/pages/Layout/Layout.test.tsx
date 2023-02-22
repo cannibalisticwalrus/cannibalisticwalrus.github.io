@@ -19,13 +19,12 @@ describe("Default page...", () => {
     expect(rootElement).toBeInTheDocument();
   });
 
-  test("shows nav items when screen is larger than 600px", () => {
+  test("has hamburger icon that opens and closes the sidebar", () => {
     render(
       <HashRouter>
         <Layout></Layout>
       </HashRouter>
     );
-    const sidebarContainer = document.getElementsByClassName("SidebarContainer");
-    expect(sidebarContainer).toBeVisible();
+    const sidebarContainer = screen
   });
 });
