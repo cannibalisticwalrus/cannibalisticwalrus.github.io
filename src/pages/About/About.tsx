@@ -5,7 +5,8 @@ const About = () => {
   return (
     <div className="AboutRoot" id="#root">
       <div className="AboutHeader">About Me</div>
-      <img
+      <div className="AboutContainer">
+              <img
         className="ImageContainer"
         src={SpanishSelfie}
         alt="Me in A Coruna Spain"
@@ -27,6 +28,8 @@ const About = () => {
         blog section when that feature is added. (The blog is one of the last
         features to be scheduled so it might be a bit.)
       </div>
+      </div>
+
     </div>
   );
 };

@@ -1,6 +1,5 @@
 import React from "react";
 import "./PortfolioGridItem.scss";
-import TestImage from "../../Ford_logo_flat.svg.png";
 
 interface GridItem {
   imgPath: string;

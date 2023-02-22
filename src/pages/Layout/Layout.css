@@ -8,14 +8,29 @@
 
 .SidebarContainer {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 100vh;
-  flex-grow: 1;
+  /* flex-grow: 1; */
   align-items: center;
-  padding-left: 2%;
+}
+
+.MenuIcon {
+  align-self: flex-start;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.MenuIconEmpty {
+  align-self: flex-start;
 }
 
 .NavItem {
   margin-bottom: 15%;
+  flex-shrink: 0;
+  width: 200px;
+  padding-left: 10%;
 }
 
 .NavItemText {
@@ -30,4 +45,12 @@
 
 .OutletContainer {
   flex-grow: 9;
+  flex-shrink: 9;
+  align-self: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .MenuIcon {
+    display: none;
+  }
 }

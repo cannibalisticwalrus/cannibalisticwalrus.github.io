@@ -4,13 +4,19 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+}
+
+.AboutContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   overflow: scroll;
-  height: 90vh;
+  height: 85vh;
 }
 
 .AboutHeader {
   align-self: center;
-  padding: 5%;
 }
 
 .ImageContainer {
