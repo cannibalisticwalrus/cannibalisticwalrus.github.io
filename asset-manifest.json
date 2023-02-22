@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.6d0490ea.css",
-    "main.js": "/static/js/main.80aed1af.js",
+    "main.css": "/static/css/main.c340a54a.css",
+    "main.js": "/static/js/main.1e4791bf.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/SpanishSelfie.jpg": "/static/media/SpanishSelfie.b41c74205ebf728ce61d.jpg",
     "static/media/Ford_logo_flat.svg.png": "/static/media/Ford_logo_flat.svg.37dc3cf262398bf2253c.png",
     "index.html": "/index.html",
-    "main.6d0490ea.css.map": "/static/css/main.6d0490ea.css.map",
-    "main.80aed1af.js.map": "/static/js/main.80aed1af.js.map",
+    "main.c340a54a.css.map": "/static/css/main.c340a54a.css.map",
+    "main.1e4791bf.js.map": "/static/js/main.1e4791bf.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d0490ea.css",
-    "static/js/main.80aed1af.js"
+    "static/css/main.c340a54a.css",
+    "static/js/main.1e4791bf.js"
   ]
 }
