@@ -1,11 +1,12 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
+import { Squash as Hamburger } from 'hamburger-react';
 import "./Layout.css";
 
 const Layout = () => {
   return (
     <>
-      <div className="Root">
+      <div className="Root" id="#root">
         <div className="SidebarContainer">
           <nav>
             <div className="NavItem">
