@@ -18,13 +18,4 @@ describe("Default page...", () => {
     const rootElement = document.getElementById("#root");
     expect(rootElement).toBeInTheDocument();
   });
-
-  test("has hamburger icon that opens and closes the sidebar", () => {
-    render(
-      <HashRouter>
-        <Layout></Layout>
-      </HashRouter>
-    );
-    const sidebarContainer = screen
-  });
 });
