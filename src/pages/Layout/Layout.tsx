@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Outlet, Link } from "react-router-dom";
+import { Squash as Hamburger } from "hamburger-react";
 import "./Layout.css";
 
 const Layout = () => {
@@ -10,25 +11,15 @@ const Layout = () => {
     console.log({ showSidebar });
   };
 
-  const [showHamburger, setShowHamburger] = useState(window.innerHeight >= 600);
-
-  const handleShowHamburger = () => {
-    setShowHamburger(window.innerHeight >= 600);
-    console.log({showHamburger});
-  }
-
-
   return (
     <>
       <div className="Root" id="#root">
         <div className="SidebarContainer">
-          {showHamburger ? (
-            <div className="MenuIcon" onClick={handleShowSidebar}>
-              {showHamburger}
-            </div>
-          ) : (
-            <div>{showHamburger}</div>
-          )}
+          <div className="MenuIcon" onClick={handleShowSidebar}>
+            <Hamburger toggled={showSidebar}></Hamburger>
+          </div>
+          <div className="MenuIconEmpty">
+          </div>
           {showSidebar ? (
             <nav>
               <div className="NavItem">

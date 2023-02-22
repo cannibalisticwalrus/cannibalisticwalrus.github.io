@@ -16,7 +16,14 @@
   padding-left: 2%;
 }
 
-.MenuIcon{
+.MenuIcon {
+  align-self: flex-start;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.MenuIconEmpty {
   align-self: flex-start;
 }
 
@@ -36,4 +43,22 @@
 
 .OutletContainer {
   flex-grow: 9;
+}
+
+/* @media only screen and (max-width: 768px) {
+  .MenuIconEmpty {
+    display: none;
+  }
+  /* .SidebarContainer{
+    background-color: white;
+  } */
+
+
+@media only screen and (min-width: 768px) {
+  .MenuIcon {
+    display: none;
+  }
+  /* .SidebarContainer{
+    background-color: white;
+  } */
 }
