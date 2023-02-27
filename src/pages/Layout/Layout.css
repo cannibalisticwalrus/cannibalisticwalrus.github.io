@@ -4,6 +4,7 @@
   justify-content: flex-start;
   font-size: calc(24px + 2vmin);
   background-color: #282c34;
+  overflow-x: hidden;
 }
 
 .SidebarContainer {
@@ -11,7 +12,6 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
-  /* flex-grow: 1; */
   align-items: center;
 }
 

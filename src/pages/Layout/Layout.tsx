@@ -1,15 +1,28 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Outlet, Link } from "react-router-dom";
 import { Squash as Hamburger } from "hamburger-react";
 import "./Layout.css";
 
 const Layout = () => {
-  const [showSidebar, setShowSidebar] = useState(window.innerWidth >= 768);
 
-  const handleShowSidebar = () => {
+  const getShowSidebar = () => window.innerWidth >= 768; //A function that returns whether user is using an XS(read mobile) window or not
+  const [showSidebar, setShowSidebar] = useState(getShowSidebar); //Use State hook to provide state for the showSidebar variable
+
+  const handleShowSidebar = () => { //The function that is called in the vDOM to return whether the sidebar should be available or not
     setShowSidebar(!showSidebar);
-    console.log({ showSidebar });
   };
+
+  useEffect(() => { //Use effect hook
+    const onResize = () => {
+      setShowSidebar(getShowSidebar());
+    }
+
+    window.addEventListener("resize", onResize);
+
+    return () => {
+      window.removeEventListener("resize", onResize);
+    }
+  }, []);
 
   return (
     <>
