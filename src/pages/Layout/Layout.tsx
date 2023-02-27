@@ -10,10 +10,9 @@ const Layout = () => {
 
   const handleShowSidebar = () => { //The function that is called in the vDOM to return whether the sidebar should be available or not
     setShowSidebar(!showSidebar);
-    //console.log({ showSidebar }); //Test code...to be deleted when feature is done
   };
 
-  useEffect(() => {
+  useEffect(() => { //Use effect hook
     const onResize = () => {
       setShowSidebar(getShowSidebar());
     }
