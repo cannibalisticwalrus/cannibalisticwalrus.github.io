@@ -43,5 +43,10 @@ describe("renders...", () => {
   test("...title of the project", () => {
     const titleElement = document.getElementsByClassName("SlideinHeader");
     expect(titleElement[0].textContent).toBe("TestTitle");
+  });
+
+  test("...description of the project", () => {
+    const descriptionElement = document.getElementsByClassName("SlideinDescription");
+    expect(descriptionElement[0].textContent).toBe("TestDescription");
   })
 });

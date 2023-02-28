@@ -14,7 +14,8 @@ const PortfolioSlideInComponent = (props: portfolioObject) => {
     return(<div id="#root">
         <div className="SlideinHeader">{props.title}</div>
         <img src={props.imgPath}></img>
+        <div className="SlideinDescription">{props.description}</div>
     </div>);
 }
 
-export default PortfolioSlideInComponent;
+export default PortfolioSlideInComponent; 
