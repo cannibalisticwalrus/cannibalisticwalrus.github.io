@@ -1,5 +1,6 @@
 import "./Portfolio.scss";
 import PortfolioGridItem from "../../components/PortfolioGridItem/PortfolioGridItem";
+import PortfolioSlideInComponent from "../../components/PortfolioSlideIn/PortfolioSlideIn";
 
 const Portfolio = () => {
   return (
@@ -55,6 +56,7 @@ const Portfolio = () => {
           ></PortfolioGridItem>
         </div>
       </div>
+      <PortfolioSlideInComponent imgPath="Path" title="Title" description="Description"></PortfolioSlideInComponent>
     </div>
   );
 };

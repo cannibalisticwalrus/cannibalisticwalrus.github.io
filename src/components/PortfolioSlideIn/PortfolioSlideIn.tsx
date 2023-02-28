@@ -12,7 +12,7 @@ interface portfolioObject{
 
 const PortfolioSlideInComponent = (props: portfolioObject) => {
     return(<div id="#root">
-
+        <img src={props.imgPath}></img>
     </div>);
 }
 
