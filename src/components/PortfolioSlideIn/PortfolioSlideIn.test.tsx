@@ -39,4 +39,9 @@ describe("renders...", () => {
     const imgElement = document.querySelector("img") as HTMLImageElement;
     expect(imgElement.src).toBe("https://picsum.photos/355");
   });
+
+  test("...title of the project", () => {
+    const titleElement = document.getElementsByClassName("SlideinHeader");
+    expect(titleElement[0].textContent).toBe("TestTitle");
+  })
 });

@@ -56,7 +56,7 @@ const Portfolio = () => {
           ></PortfolioGridItem>
         </div>
       </div>
-      <PortfolioSlideInComponent imgPath="Path" title="Title" description="Description"></PortfolioSlideInComponent>
+      <PortfolioSlideInComponent imgPath="https://picsum.photos/350" title="Title" description="Description"></PortfolioSlideInComponent>
     </div>
   );
 };
