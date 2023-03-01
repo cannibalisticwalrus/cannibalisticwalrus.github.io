@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import PortfolioSlideInComponent from "../PortfolioSlideIn/PortfolioSlideIn";
 import "./PortfolioGridItem.scss";
 
 interface GridItem {
@@ -10,9 +11,23 @@ interface GridItem {
 }
 
 const PortfolioGridItem = (props: GridItem) => {
+  const togglePopUp = () => {
+    setShowDescription(!showDescription);
+  };
+  const spawnPopUp = () => {
+    setShowDescription(true);
+    console.log("spawned");
+  };
+  const killPopUp = () => {
+    setShowDescription(false);
+    console.log("killed");
+  };
+
+  const [showDescription, setShowDescription] = useState(false);
+
   return (
     <div className="GridItem" id="#root">
-      <div className="GridItemContent">
+      <div className="GridItemContent" onClick={spawnPopUp}>
         <img
           className="GridImage"
           src={props.imgPath}
@@ -22,6 +37,14 @@ const PortfolioGridItem = (props: GridItem) => {
           <div className="GridItemText">{props.title}</div>
         </div>
       </div>
+      {showDescription ? (
+        <PortfolioSlideInComponent
+          title={props.title}
+          imgPath={props.imgPath}
+          description={props.description}
+          togglePopUp={killPopUp}
+        ></PortfolioSlideInComponent>
+      ) : null}
     </div>
   );
 };
