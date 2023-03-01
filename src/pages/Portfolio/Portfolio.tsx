@@ -1,6 +1,5 @@
 import "./Portfolio.scss";
 import PortfolioGridItem from "../../components/PortfolioGridItem/PortfolioGridItem";
-import PortfolioSlideInComponent from "../../components/PortfolioSlideIn/PortfolioSlideIn";
 
 const Portfolio = () => {
   return (
@@ -56,7 +55,6 @@ const Portfolio = () => {
           ></PortfolioGridItem>
         </div>
       </div>
-      <PortfolioSlideInComponent imgPath="https://picsum.photos/350" title="Title" description="Description"></PortfolioSlideInComponent>
     </div>
   );
 };

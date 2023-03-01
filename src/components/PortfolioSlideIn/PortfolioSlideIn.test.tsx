@@ -5,6 +5,10 @@ import { unmountComponentAtNode } from "react-dom";
 import { act } from "react-dom/test-utils";
 
 let container: HTMLDivElement;
+const togglePopUp = () => {
+  //empty method to make the test happy (not being tested atm)
+}
+
 
 beforeEach(() => {
   container = document.createElement("div");
@@ -24,6 +28,7 @@ describe("renders...", () => {
           title="TestTitle"
           imgPath="https://picsum.photos/355"
           description="TestDescription"
+          togglePopUp={togglePopUp}
         ></PortfolioSlideIn>
       );
     });
