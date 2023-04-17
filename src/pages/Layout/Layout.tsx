@@ -29,10 +29,10 @@ const Layout = () => {
       This site is under some construction, check back later.
       <br/>
       In the meantime feel free to check out my Github or my Blog to get updates on what I am working on.
-      <a className="BlogLink" style={{color: "salmon"}} href="https://stephenjackiw.blogspot.com/">Blog</a>
-      <a className="BlogLink" style={{color: "aqua"}} href="https://github.com/cannibalisticwalrus">Github</a>
+      <a className="BlogLink" style={{color: "palevioletred"}} href="https://stephenjackiw.blogspot.com/">Blog</a>
+      <a className="BlogLink" style={{color: "paleturquoise"}} href="https://github.com/cannibalisticwalrus">Github</a>
       OR
-      <a href="mailto:website@stephenjackiw.33mail.com">Send Me An Email</a>
+      <a style={{color: "palegreen"}} href="mailto:website@stephenjackiw.33mail.com">Send Me An Email</a>
     </div>
     // <>
     //   <div className="Root" id="#root">
