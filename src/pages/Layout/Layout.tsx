@@ -31,6 +31,8 @@ const Layout = () => {
       In the meantime feel free to check out my Github or my Blog to get updates on what I am working on.
       <a className="BlogLink" style={{color: "salmon"}} href="https://stephenjackiw.blogspot.com/">Blog</a>
       <a className="BlogLink" style={{color: "aqua"}} href="https://github.com/cannibalisticwalrus">Github</a>
+      OR
+      <a href="mailto:website@stephenjackiw.33mail.com">Send Me An Email</a>
     </div>
     // <>
     //   <div className="Root" id="#root">
