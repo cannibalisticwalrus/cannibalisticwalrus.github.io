@@ -25,46 +25,53 @@ const Layout = () => {
   }, []);
 
   return (
-    <>
-      <div className="Root" id="#root">
-        <div className="SidebarContainer">
-          <div className="MenuIcon" onClick={handleShowSidebar}>
-            <Hamburger toggled={showSidebar} color="#ffffff"></Hamburger>
-          </div>
-          <div className="MenuIconEmpty">
-          </div>
-          {showSidebar ? (
-            <nav>
-              <div className="NavItem">
-                <Link className="NavItemText" to="/Resume">
-                  Resume
-                </Link>
-              </div>
-              <div className="NavItem">
-                <Link className="NavItemText" to="/Portfolio">
-                  Portfolio
-                </Link>
-              </div>
-              <div className="NavItem">
-                <Link className="NavItemText" to="/">
-                  About
-                </Link>
-              </div>
-              <div className="NavItem">
-                <Link className="NavItemText" to="./Blog">
-                  Blog
-                </Link>
-              </div>
-            </nav>
-          ) : null}
+    <div className="ComingSoon" id="#root">
+      This site is under some construction, check back later.
+      <br/>
+      In the meantime feel free to check out my Github or my Blog to get updates on what I am working on.
+      <a className="BlogLink" style={{color: "salmon"}} href="https://stephenjackiw.blogspot.com/">Blog</a>
+      <a className="BlogLink" style={{color: "aqua"}} href="https://github.com/cannibalisticwalrus">Github</a>
+    </div>
+    // <>
+    //   <div className="Root" id="#root">
+    //     <div className="SidebarContainer">
+    //       <div className="MenuIcon" onClick={handleShowSidebar}>
+    //         <Hamburger toggled={showSidebar} color="#ffffff"></Hamburger>
+    //       </div>
+    //       <div className="MenuIconEmpty">
+    //       </div>
+    //       {showSidebar ? (
+    //         <nav>
+    //           <div className="NavItem">
+    //             <Link className="NavItemText" to="/Resume">
+    //               Resume
+    //             </Link>
+    //           </div>
+    //           <div className="NavItem">
+    //             <Link className="NavItemText" to="/Portfolio">
+    //               Portfolio
+    //             </Link>
+    //           </div>
+    //           <div className="NavItem">
+    //             <Link className="NavItemText" to="/">
+    //               About
+    //             </Link>
+    //           </div>
+    //           <div className="NavItem">
+    //             <Link className="NavItemText" to="./Blog">
+    //               Blog
+    //             </Link>
+    //           </div>
+    //         </nav>
+    //       ) : null}
 
-          <div className="EmptyForFlexJustifyContent"></div>
-        </div>
-        <div className="OutletContainer">
-          <Outlet />
-        </div>
-      </div>
-    </>
+    //       <div className="EmptyForFlexJustifyContent"></div>
+    //     </div>
+    //     <div className="OutletContainer">
+    //       <Outlet />
+    //     </div>
+    //   </div>
+    // </>
   );
 };
 export default Layout;
