@@ -1,79 +1,64 @@
-import React, { useEffect, useState } from "react";
-import { Outlet, Link } from "react-router-dom";
-import { Squash as Hamburger } from "hamburger-react";
-import "./Layout.css";
+import "./Layout.scss";
 
 const Layout = () => {
-
-  const getShowSidebar = () => window.innerWidth >= 768; //A function that returns whether user is using an XS(read mobile) window or not
-  const [showSidebar, setShowSidebar] = useState(getShowSidebar); //Use State hook to provide state for the showSidebar variable
-
-  const handleShowSidebar = () => { //The function that is called in the vDOM to return whether the sidebar should be available or not
-    setShowSidebar(!showSidebar);
-  };
-
-  useEffect(() => { //Use effect hook
-    const onResize = () => {
-      setShowSidebar(getShowSidebar());
-    }
-
-    window.addEventListener("resize", onResize);
-
-    return () => {
-      window.removeEventListener("resize", onResize);
-    }
-  }, []);
-
   return (
-    <div className="ComingSoon" id="#root">
-      This site is under some construction, check back later.
-      <br/>
-      In the meantime feel free to check out my Github or my Blog to get updates on what I am working on.
-      <a className="BlogLink" style={{color: "palevioletred"}} href="https://stephenjackiw.blogspot.com/">Blog</a>
-      <a className="BlogLink" style={{color: "paleturquoise"}} href="https://github.com/cannibalisticwalrus">Github</a>
-      OR
-      <a style={{color: "palegreen"}} href="mailto:website@stephenjackiw.33mail.com">Send Me An Email</a>
-    </div>
-    // <>
-    //   <div className="Root" id="#root">
-    //     <div className="SidebarContainer">
-    //       <div className="MenuIcon" onClick={handleShowSidebar}>
-    //         <Hamburger toggled={showSidebar} color="#ffffff"></Hamburger>
-    //       </div>
-    //       <div className="MenuIconEmpty">
-    //       </div>
-    //       {showSidebar ? (
-    //         <nav>
-    //           <div className="NavItem">
-    //             <Link className="NavItemText" to="/Resume">
-    //               Resume
-    //             </Link>
-    //           </div>
-    //           <div className="NavItem">
-    //             <Link className="NavItemText" to="/Portfolio">
-    //               Portfolio
-    //             </Link>
-    //           </div>
-    //           <div className="NavItem">
-    //             <Link className="NavItemText" to="/">
-    //               About
-    //             </Link>
-    //           </div>
-    //           <div className="NavItem">
-    //             <Link className="NavItemText" to="./Blog">
-    //               Blog
-    //             </Link>
-    //           </div>
-    //         </nav>
-    //       ) : null}
+    <div className="Root" id="#root">
+      <div className="Section">
+        <div className="Introduction">
+          <div className="IntroductionPreIntro">Hello, my name is</div>
+          <div className="IntroductionName">Stephen Jackiw.</div>
+          <div className="IntroductionOneLiner">Full-Stack Developer.</div>
+          <div className="IntroductionSummary">
+            Whether creating self-documenting code, a properly normalized
+            relational database or creating a lovely minimalist user experience,
+            I ensure that Full-Stack development is beautiful.
+          </div>
+          <div className="IntroductionHireMe">Interested in hiring me?</div>
+          <div className="IntroductionResumeDownload">
+            <a className="ResumeLink" href="../resume.pdf">
+              I have a resume!
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="Section">
+        <div className="AboutMe">
+          <div className="AboutMeHeader">A Bit About Me</div>
+          <div className="AboutMeInfoContainer">
+            <div className="AboutMeParagraph">
+              Hello! My name is Stephen.  
+              <span className="AboutMeAltColor"> I like to make things.  </span>
+              Not very descriptive, I know. Right now, that means I am making
+              sites, apps, games and tools that exist on the web. I got my start
+              programming Java in high school have been developing things ever
+              since.
+            </div>
+            <div className="AboutMeParagraph">
+              My most recent position was at Ford Motor Company where <span className="AboutMeAltColor"> I developed information security tools </span> 
+               for our company's intranet.
+              Outside of corporations, I am working on a few side projects
+              including a Tabletop RPG tool, a portfolio website (*hint* you are
+              looking at it), and a super secret project that I will announce as
+              soon as I can.
+            </div>
+          </div>
 
-    //       <div className="EmptyForFlexJustifyContent"></div>
-    //     </div>
-    //     <div className="OutletContainer">
-    //       <Outlet />
-    //     </div>
-    //   </div>
-    // </>
+          <div className="AboutMeToolsHeader">I have exprience creating with:</div>
+          <ul className="AboutMeTools">
+            <li>ReactJS (this site)</li>
+            <li>AngularJS</li>
+            <li>Typescript</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>AWS S3</li>
+            <li>MS SQL</li>
+            <li>Godot (and GDScript)</li>
+            <li>Unreal Engine 4 (and C++)</li>
+            <li>Jenkins</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   );
 };
 export default Layout;
