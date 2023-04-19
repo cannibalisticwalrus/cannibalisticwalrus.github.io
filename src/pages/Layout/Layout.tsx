@@ -1,5 +1,5 @@
 import "./Layout.scss";
-import Resume from "../../documents/resume.pdf";
+// import Resume from "../../resume.pdf"; 
 
 const Layout = () => {
   return (
@@ -16,7 +16,7 @@ const Layout = () => {
           </div>
           <div className="IntroductionHireMe">Interested in hiring me?</div>
           <div className="IntroductionResumeDownload">
-            <a className="ResumeLink" href={Resume}>
+            <a className="ResumeLink" href={require('../../resume.pdf')} target="_blank">
               I have a resume!
             </a>
           </div>
@@ -80,7 +80,7 @@ const Layout = () => {
           </div>
           <div className="ContactMeHireMe">Interested in hiring me?</div>
           <div className="ContactMeResumeDownload">
-            <a className="ResumeLink" href={Resume}>
+            <a className="ResumeLink" href={require('../../resume.pdf')} target="_blank">
               I have a resume!
             </a>
           </div>
