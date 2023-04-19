@@ -30,7 +30,7 @@
 }
 
 .Introduction{
-  color: $LightThemePrimary;
+  color: $LightThemePrimaryColor;
 
   display: flex;
   flex-direction: column;
@@ -54,7 +54,6 @@
 
 .IntroductionSummary{
   font-size: clamp(.125em, 2vw, .35em);
-  color: $LightThemePrimary;
 }
 
 .IntroductionHireMe{
@@ -63,7 +62,6 @@
 }
 
 .IntroductionResumeDownload{
-  color: $LightThemePrimary;
   width: fit-content;
   font-size: clamp(.175em, 2.5vw, .5em);
   //font-size: .5em;
@@ -85,7 +83,7 @@
 }
 
 .AboutMe{
-  color: $LightThemePrimary;
+  color: $LightThemePrimaryColor;
 
   display: flex;
   flex-direction: column;
