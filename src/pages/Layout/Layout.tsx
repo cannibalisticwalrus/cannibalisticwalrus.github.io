@@ -1,4 +1,5 @@
 import "./Layout.scss";
+import Resume from "../../documents/resume.pdf";
 
 const Layout = () => {
   return (
@@ -15,7 +16,7 @@ const Layout = () => {
           </div>
           <div className="IntroductionHireMe">Interested in hiring me?</div>
           <div className="IntroductionResumeDownload">
-            <a className="ResumeLink" href="../resume.pdf">
+            <a className="ResumeLink" href={Resume}>
               I have a resume!
             </a>
           </div>
@@ -26,24 +27,29 @@ const Layout = () => {
           <div className="AboutMeHeader">A Bit About Me</div>
           <div className="AboutMeInfoContainer">
             <div className="AboutMeParagraph">
-              Hello! My name is Stephen.  
-              <span className="AboutMeAltColor"> I like to make things.  </span>
+              Hello! My name is Stephen.
+              <span className="AboutMeAltColor"> I like to make things. </span>
               Not very descriptive, I know. Right now, that means I am making
-              sites, apps, games and tools that exist on the web. I got my start
-              programming Java in high school have been developing things ever
-              since.
+              sites, apps, games and tools that exist on the web and on servers.
+              I got my start programming Java in high school have been
+              developing things ever since.
             </div>
             <div className="AboutMeParagraph">
-              My most recent position was at Ford Motor Company where <span className="AboutMeAltColor"> I developed information security tools </span> 
-               for our company's intranet.
-              Outside of corporations, I am working on a few side projects
-              including a Tabletop RPG tool, a portfolio website (*hint* you are
-              looking at it), and a super secret project that I will announce as
-              soon as I can.
+              My most recent position was at Ford Motor Company where{" "}
+              <span className="AboutMeAltColor">
+                {" "}
+                I developed information security tools{" "}
+              </span>
+              for our company's intranet. Outside of corporations, I am working
+              on a few side projects including a Tabletop RPG tool, a portfolio
+              website (*hint* you are looking at it), and a super secret project
+              that I will announce as soon as I can.
             </div>
           </div>
 
-          <div className="AboutMeToolsHeader">I have exprience creating with:</div>
+          <div className="AboutMeToolsHeader">
+            I have exprience creating with:
+          </div>
           <ul className="AboutMeTools">
             <li>ReactJS (this site)</li>
             <li>AngularJS</li>
@@ -56,6 +62,28 @@ const Layout = () => {
             <li>Unreal Engine 4 (and C++)</li>
             <li>Jenkins</li>
           </ul>
+        </div>
+      </div>
+      <div className="Section">
+        <div className="ContactMe">
+          <div className="ContactMeHeader">Interested in more?</div>
+          <div className="ContactMeSocials">
+            This site is still under construction but you can see what I am
+            working on.
+            <a className="ContactMeSocialsLink" href="https://github.com/cannibalisticwalrus">My Github</a>
+            <a className="ContactMeSocialsLink" href="https://stephenjackiw.blogspot.com">My Blog</a>
+          </div>
+          <div className="ContactMeMessages">
+            Have questions? Want to connect? Use one of these links:
+            <a className="ContactMeMessagesLink" href="https://github.com/cannibalisticwalrus">My LinkedIn</a>
+            <a className="ContactMeMessagesLink" href="mailto:website@stephenjackiw.33mail.com">My Email</a>
+          </div>
+          <div className="ContactMeHireMe">Interested in hiring me?</div>
+          <div className="ContactMeResumeDownload">
+            <a className="ResumeLink" href={Resume}>
+              I have a resume!
+            </a>
+          </div>
         </div>
       </div>
     </div>

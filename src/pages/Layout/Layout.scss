@@ -130,3 +130,58 @@
   font-size: clamp(.125em, 1vw, .35em);
   padding-left: 10px;
 }
+
+.ContactMe{
+  color: $LightThemePrimaryColor;
+
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+
+  font-size: clamp(.125em, 1vw, .35em);
+}
+
+.ContactMeHeader{
+  font-size: 2em;
+  color: $Yellow;
+  padding-bottom: 2.5%;
+}
+
+.ContactMeSocials{
+  display: flex;
+  flex-direction: column;
+}
+
+.ContactMeSocialsLink{
+  color: $Green !important;
+}
+
+.ContactMeMessages{
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+}
+
+.ContactMeMessagesLink{
+  color: $Blue !important;
+}
+
+.ContactMeHireMe{
+  font-size: 2em;
+  padding-top: 5%;
+  color: $Purple;
+}
+
+.ContactMeResumeDownload{
+  width: fit-content;
+  font-size: 1em;
+
+  padding: 1%;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+}
+
+.ContactMeResumeDownload:hover{
+  color: $Purple;
+}
