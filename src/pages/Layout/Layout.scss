@@ -134,9 +134,9 @@
 }
 
 .AboutMeTools{
-  align-self: flex-start;
+  align-self: center;
   display: grid;
-  grid-template-columns: repeat(2, minmax(200px, 250px));
+  grid-template-columns: repeat(2, minmax(100px, 300px));
   font-size: clamp(.125em, 1vw, .35em);
   padding-left: 10px;
 }
