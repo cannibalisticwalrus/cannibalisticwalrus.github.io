@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.f5f4533c.css",
-    "main.js": "/static/js/main.33ae8a4c.js",
+    "main.css": "/static/css/main.1748794b.css",
+    "main.js": "/static/js/main.d2c0d564.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/SpanishSelfie.jpg": "/static/media/SpanishSelfie.b41c74205ebf728ce61d.jpg",
     "static/media/Ford_logo_flat.svg.png": "/static/media/Ford_logo_flat.svg.37dc3cf262398bf2253c.png",
     "static/media/resume.pdf": "/static/media/resume.635d3611da9a54bc7ae3.pdf",
     "index.html": "/index.html",
-    "main.f5f4533c.css.map": "/static/css/main.f5f4533c.css.map",
-    "main.33ae8a4c.js.map": "/static/js/main.33ae8a4c.js.map",
+    "main.1748794b.css.map": "/static/css/main.1748794b.css.map",
+    "main.d2c0d564.js.map": "/static/js/main.d2c0d564.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5f4533c.css",
-    "static/js/main.33ae8a4c.js"
+    "static/css/main.1748794b.css",
+    "static/js/main.d2c0d564.js"
   ]
 }
