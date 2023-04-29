@@ -7,7 +7,7 @@ import { TbBrandBlogger } from "react-icons/tb";
 const Layout = () => {
   return (
     <div className="Root" id="#root">
-      <div className="Section">
+      <div className="Section" id="#Introduction">
         <div className="Introduction">
           <div className="IntroductionPreIntro">Hello, my name is</div>
           <div className="IntroductionName">Stephen Jackiw.</div>
@@ -30,7 +30,7 @@ const Layout = () => {
           </div>
         </div>
       </div>
-      <div className="Section">
+      <div className="Section" id="#AboutMe">
         <div className="AboutMe">
           <div className="AboutMeHeader">A Bit About Me</div>
           <div className="AboutMeInfoContainer">
@@ -72,7 +72,7 @@ const Layout = () => {
           </ul>
         </div>
       </div>
-      <div className="Section">
+      <div className="Section" id="#Experience">
         <div className="MyExperience">
           <div className="MyExperienceHeader">My Experience</div>
           <div className="MyExperienceParagraph">
@@ -93,7 +93,7 @@ const Layout = () => {
           </div>
         </div>
       </div>
-      <div className="Section">
+      <div className="Section" id="Projects">
         <div className="Projects">
           <div className="ProjectsHeader">Previous Projects</div>
           <div className="ProjectsParagraph">
@@ -114,7 +114,7 @@ const Layout = () => {
           </a>
         </div>
       </div>
-      <div className="Section">
+      <div className="Section" id="ContactMe">
         <div className="ContactMe">
           <div className="ContactMeHeader">Want to get a hold of me?</div>
           <div className="ContactMeParagraph">
