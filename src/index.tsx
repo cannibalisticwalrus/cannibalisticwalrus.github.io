@@ -4,10 +4,7 @@ import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
 import "./index.css";
 import Layout from "./pages/Layout/Layout";
-import Blog from "./pages/Blog/Blog";
-import About from "./pages/About/About";
 import Portfolio from "./pages/Portfolio/Portfolio";
-import Resume from "./pages/Resume/Resume";
 import NoPage from "./pages/NoPage";
 
 export default function App() {
@@ -15,10 +12,7 @@ export default function App() {
     <HashRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<About />}></Route>
           <Route path='Portfolio' element={<Portfolio />}></Route>
-          <Route path='Resume' element={<Resume />}></Route>
-          <Route path='Blog' element={<Blog />}></Route>
           <Route path='*' element={<NoPage />} />
         </Route>
       </Routes>
