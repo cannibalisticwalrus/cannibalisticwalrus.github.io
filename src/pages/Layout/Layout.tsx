@@ -36,10 +36,11 @@ const Layout = () => {
             <div className="AboutMeParagraph">
               Hello! My name is Stephen.
               <span className="AboutMeAltColor"> I like to make things. </span>
-              Not very descriptive, I know. Right now, that means I am making
-              sites, apps, games and tools that exist on the web and on servers.
-              I got my start programming Java in high school have been
-              developing things ever since.
+              Not very descriptive, I know. I have made sites, apps, games and
+              tools that (mostly) exist on the web. I am even working on a
+              mobile app! I have worked in a variety of tech stacks from
+              Java+Angular to Python+ReactJS and I am constantly excited to
+              learn new ones.
             </div>
             <div className="AboutMeParagraph">
               My most recent position was at Ford Motor Company where{" "}
@@ -47,10 +48,10 @@ const Layout = () => {
                 {" "}
                 I developed information security tools{" "}
               </span>
-              for our company's intranet. Outside of corporations, I am working
-              on a few side projects including a Tabletop RPG tool, a portfolio
-              website (*hint* you are looking at it), and a super secret project
-              that I will announce as soon as I can.
+              for our company's intranet. I am working on a few side projects
+              including a Tabletop RPG tool, a portfolio website (*hint* you are
+              looking at it), and a super secret project that I will announce as
+              soon as I can.
             </div>
           </div>
 
@@ -87,7 +88,7 @@ const Layout = () => {
               <TabPanel>
                 <div className="" id="Ford-CyberEngineer">
                   <div className="">
-                    <div>Cybersecurity Engineer - Ford Motor Company</div>
+                    <div>Cybersecurity Engineer @ Ford Motor Company</div>
                     <div>May 2021-August 2022</div>
                   </div>
                   <div className="">
@@ -122,23 +123,6 @@ const Layout = () => {
                           </li>
                         </ul>
                       </div>
-                      <div className="">
-                        <div className="">
-                          <h4>Tools And Technology</h4>
-                          <li>Frontend: Angular</li>
-                          <li>Backend: Java (Spring Framework)</li>
-                          <li>Database: Microsoft SQL Server (SQL)</li>
-                          <li>Hosted on: Local, Google Cloud Platform</li>
-                        </div>
-                        <div className="">
-                          <h4>Other Technologies Used:</h4>
-                          <li>Jenkins</li>
-                          <li>Jira</li>
-                          <li>Git/Github</li>
-                          <li>Groovy (to program Jenkins Pipelines)</li>
-                          <li>AWS S3</li>
-                        </div>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -147,7 +131,7 @@ const Layout = () => {
                 <div className="" id="Ford-CyberOpsIntern">
                   <div className="">
                     <div>
-                      Cybersecurity Operations Intern - Ford Motor Company
+                      Cybersecurity Operations Intern @ Ford Motor Company
                     </div>
                     <div>May 2020-August 2020</div>
                   </div>
@@ -181,15 +165,6 @@ const Layout = () => {
                           </li>
                         </ul>
                       </div>
-                      <div className="">
-                        <div className="">
-                          <h4>Tools And Technology</h4>
-                          <li>Symantec Endpoint Security Suite</li>
-                          <li>Email Filtering/Spam Detection Rules</li>
-                          <li>VMWare, VCenter</li>
-                          <li>Local (Private) Cloud</li>
-                        </div>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -197,7 +172,7 @@ const Layout = () => {
               <TabPanel>
                 <div className="" id="Ford-SecurityTestingIntern">
                   <div className="">
-                    <div>Cybersecurity Testing Intern - Ford Motor Company</div>
+                    <div>Cybersecurity Testing Intern @ Ford Motor Company</div>
                     <div>May 2019-August 2019</div>
                   </div>
                   <div className="">
@@ -231,22 +206,6 @@ const Layout = () => {
                           </li>
                         </ul>
                       </div>
-                      <div className="">
-                        <div className="">
-                          <div>Tools And Technology</div>
-                          <li>Kali Linux</li>
-                          <li>Ubuntu</li>
-                          <li>Wireshark</li>
-                          <li>Bluetooth Low Energy</li>
-                        </div>
-                        <div className="">
-                          <div>Other Technologies and Techniques Used:</div>
-                          <li>Conflict Mediation and Management</li>
-                          <li>Document Writing</li>
-                          <li>Microsoft Excel (Macros)</li>
-                          <li>Penetration Test Replication</li>
-                        </div>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -254,7 +213,7 @@ const Layout = () => {
               <TabPanel>
                 <div className="" id="Purdue-SecurityOperations">
                   <div className="">
-                    <div>Security Operations Officer - Purdue University</div>
+                    <div>Security Operations Officer @ Purdue University</div>
                     <div>May 2018-August 2018</div>
                   </div>
                   <div className="">
@@ -275,39 +234,33 @@ const Layout = () => {
                           </li>
                         </ul>
                       </div>
-                      <div className="">
-                        <div className="">
-                          <h4>Tools And Technology</h4>
-                          <li>Kali Linux</li>
-                          <li>Ubuntu</li>
-                          <li>Wireshark</li>
-                          <li>Bluetooth Low Energy</li>
-                        </div>
-                        <div className="">
-                          <h4>Other Technologies and Techniques Used:</h4>
-                          <li>Conflict Mediation and Management</li>
-                          <li>Document Writing</li>
-                          <li>Microsoft Excel (Macros)</li>
-                          <li>Penetration Test Replication</li>
-                        </div>
-                      </div>
                     </div>
                   </div>
                 </div>
               </TabPanel>
               <TabPanel>
-              <div>Software Developmer @ Alta Via Consulting</div>
+                <div>Software Developmer @ Alta Via Consulting</div>
                 <div>May 2017 - August 2017</div>
-                <div>Levereaged JavaScript, HTML and CSS to create a dynamically generated network of employee data</div>
+                <div>
+                  Levereaged JavaScript, HTML and CSS to create a dynamically
+                  generated network of employee data
+                </div>
                 <div>Gathered customer requirenments</div>
               </TabPanel>
               <TabPanel>
                 <div>Teacher @ Change</div>
                 <div>December 2020 - June 2021</div>
-                <div>Taught English as a foreign language to Spanish-speaking students</div>
+                <div>
+                  Taught English as a foreign language to Spanish-speaking
+                  students
+                </div>
                 <div>Resident Assisstant @ Purdue University</div>
                 <div>August 2018 - March 2020</div>
-                <div>Managed the relationships and well-being of over 30+ residents in one of the oldest and largest all-male dormitory in the country</div>
+                <div>
+                  Managed the relationships and well-being of over 30+ residents
+                  in one of the oldest and largest all-male dormitory in the
+                  country
+                </div>
               </TabPanel>
             </Tabs>
           </div>
