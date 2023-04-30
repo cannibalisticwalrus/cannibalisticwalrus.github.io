@@ -241,26 +241,44 @@ const Layout = () => {
               <TabPanel>
                 <div>Software Developmer @ Alta Via Consulting</div>
                 <div>May 2017 - August 2017</div>
-                <div>
-                  Levereaged JavaScript, HTML and CSS to create a dynamically
-                  generated network of employee data
-                </div>
-                <div>Gathered customer requirenments</div>
+                <ul>
+                  <li>
+                    Levereaged JavaScript, HTML and CSS to create a dynamically
+                    generated network of employee data
+                  </li>
+                  <li>Gathered customer requirenments</li>
+                  <li>
+                    Utilized open-source libraries and legacy code to create a
+                    modern system
+                  </li>
+                </ul>
               </TabPanel>
               <TabPanel>
                 <div>Teacher @ Change</div>
                 <div>December 2020 - June 2021</div>
-                <div>
-                  Taught English as a foreign language to Spanish-speaking
-                  students
-                </div>
+                <ul>
+                  <li>
+                    Taught English as a foreign language to Spanish-speaking
+                    students
+                  </li>
+                  <li>
+                    Developed lesson plans for students of all skill-levels
+                  </li>
+                </ul>
+
                 <div>Resident Assisstant @ Purdue University</div>
                 <div>August 2018 - March 2020</div>
-                <div>
-                  Managed the relationships and well-being of over 30+ residents
-                  in one of the oldest and largest all-male dormitory in the
-                  country
-                </div>
+                <ul>
+                  <li>
+                    Managed the relationships and well-being of over 30+
+                    residents in one of the oldest and largest all-male
+                    dormitory in the country
+                  </li>
+                  <li>
+                    Scheduled regular activities and porgrams for resident's
+                    personal development and entertainment
+                  </li>
+                </ul>
               </TabPanel>
             </Tabs>
           </div>
