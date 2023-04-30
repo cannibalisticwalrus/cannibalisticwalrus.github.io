@@ -22,6 +22,6 @@ Sass is used because...well because it is just a better evolution of CSS but not
 
 Feel free to visit the site and use any of the contact me options.  
 
-### Can I use this site as a base for my own?###
+### Can I use this site as a base for my own?
 Sure. I would be lying if I didn't build this site (loosly) off of a few great portfolio sites.
 All I ask is that you give me credit and don't pass my style/personality/resume/achievments off as your own.  Fill it out with your own cool stuff.
