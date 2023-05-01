@@ -88,7 +88,12 @@ const Layout = () => {
               <TabPanel>
                 <div className="" id="Ford-CyberEngineer">
                   <div className="">
-                    <div>Cybersecurity Engineer @ Ford Motor Company</div>
+                    <div>
+                      Cybersecurity Engineer{" "}
+                      <span className="MyExperienceAltColor">
+                        @ Ford Motor Company
+                      </span>{" "}
+                    </div>
                     <div>May 2021-August 2022</div>
                   </div>
                   <div className="">
@@ -96,26 +101,35 @@ const Layout = () => {
                       <div className="">
                         <ul>
                           <li>
-                            Developed software solutions in Java, Angular and
-                            SQL for automated vulnerability scanning of binary
-                            files in an agile and extreme programming
+                            Developed software solutions in{" "}
+                            <span className="MyExperienceAltColor">
+                              Java, Angular and SQL
+                            </span>{" "}
+                            for automated vulnerability scanning of binary files
+                            in an{" "}
+                            <span className="MyExperienceAltColor">
+                              agile and extreme programming
+                            </span>{" "}
                             environment
                           </li>
                           <li>
-                            Created human-friendly web application in Angular
-                            for better end user experience
-                          </li>
-                          <li>
-                            Worked with Jenkins Pipelines to create automated
-                            static code analysis and binary scan analysis steps
-                            in the build cycle
+                            Worked with{" "}
+                            <span className="MyExperienceAltColor">
+                              Jenkins
+                            </span>{" "}
+                            Pipelines to create automated static code analysis
+                            and binary scan analysis steps in the build cycle
                           </li>
                           <li>
                             Led the creation of a Blue/Green deploy step in
                             Jenkins Build for continuous product availability
                           </li>
                           <li>
-                            Managed task backlog with Jira and Github Projects
+                            Managed task backlog with{" "}
+                            <span className="MyExperienceAltColor">Jira</span>{" "}
+                            and{" "}
+                            <span className="MyExperienceAltColor">Github</span>{" "}
+                            Projects
                           </li>
                           <li>
                             Used technical writing skills to establish
@@ -140,13 +154,19 @@ const Layout = () => {
                       <div className="">
                         <ul>
                           <li>
-                            Supported company-wide email filtering and spam
+                            Supported company-wide{" "}
+                            <span className="MyExperienceAltColor">
+                              email and spam filtering
+                            </span>{" "}
                             system using Symantec’s suite of tools
                           </li>
                           <li>
-                            Installed Symantec’s endpoint security systems on
-                            over 100 virtual machines as part of Ford's Data
-                            Center of the Future project
+                            Installed Symantec’s{" "}
+                            <span className="MyExperienceAltColor">
+                              endpoint security
+                            </span>{" "}
+                            systems on over 100 virtual machines as part of
+                            Ford's Data Center of the Future project
                           </li>
                           <li>
                             Created a formal bug report and feature request
@@ -154,7 +174,10 @@ const Layout = () => {
                             tool
                           </li>
                           <li>
-                            Collaborated with a team in a design thinking
+                            Collaborated with a team in a{" "}
+                            <span className="MyExperienceAltColor">
+                              design thinking
+                            </span>{" "}
                             methodology workshop to create a prototype to
                             improve internal Ford-Intern communication for a
                             fully digital workplace
@@ -172,7 +195,12 @@ const Layout = () => {
               <TabPanel>
                 <div className="" id="Ford-SecurityTestingIntern">
                   <div className="">
-                    <div>Cybersecurity Testing Intern @ Ford Motor Company</div>
+                    <div>
+                      Cybersecurity Testing Intern{" "}
+                      <span className="MyExperienceAltColor">
+                        @ Ford Motor Company
+                      </span>
+                    </div>
                     <div>May 2019-August 2019</div>
                   </div>
                   <div className="">
@@ -180,20 +208,29 @@ const Layout = () => {
                       <div className="">
                         <ul>
                           <li>
-                            Completed and maintained 100+ security test cases in
-                            a staging environment for one of Ford's luxury
-                            vehicle product lines
+                            Completed and maintained 100+{" "}
+                            <span className="MyExperienceAltColor">
+                              security test
+                            </span>{" "}
+                            cases in a staging environment for one of Ford's
+                            luxury vehicle product lines
                           </li>
                           <li>
                             Replicated previously failed security tests to
                             insure no regression has occured
                           </li>
                           <li>
-                            Captured bluetooth traffic using a packet sniffers
+                            Captured bluetooth traffic using a{" "}
+                            <span className="MyExperienceAltColor">
+                              packet sniffers
+                            </span>{" "}
                             and decoded the binary data
                           </li>
                           <li>
-                            Researched simulating supplier security compliance
+                            Researched simulating{" "}
+                            <span className="MyExperienceAltColor">
+                              supplier security compliance
+                            </span>{" "}
                             using Matlab’s Simulink
                           </li>
                           <li>
@@ -213,7 +250,12 @@ const Layout = () => {
               <TabPanel>
                 <div className="" id="Purdue-SecurityOperations">
                   <div className="">
-                    <div>Security Operations Officer @ Purdue University</div>
+                    <div>
+                      Security Operations Officer{" "}
+                      <span className="MyExperienceAltColor">
+                        @ Purdue University
+                      </span>
+                    </div>
                     <div>May 2018-August 2018</div>
                   </div>
                   <div className="">
@@ -239,7 +281,12 @@ const Layout = () => {
                 </div>
               </TabPanel>
               <TabPanel>
-                <div>Software Developmer @ Alta Via Consulting</div>
+                <div>
+                  Software Developmer{" "}
+                  <span className="MyExperienceAltColor">
+                    @ Alta Via Consulting
+                  </span>
+                </div>
                 <div>May 2017 - August 2017</div>
                 <ul>
                   <li>
@@ -254,7 +301,9 @@ const Layout = () => {
                 </ul>
               </TabPanel>
               <TabPanel>
-                <div>Teacher @ Change</div>
+                <div>
+                  Teacher <span className="MyExperienceAltColor">@ Change</span>
+                </div>
                 <div>December 2020 - June 2021</div>
                 <ul>
                   <li>
@@ -266,7 +315,12 @@ const Layout = () => {
                   </li>
                 </ul>
 
-                <div>Resident Assisstant @ Purdue University</div>
+                <div>
+                  Resident Assisstant{" "}
+                  <span className="MyExperienceAltColor">
+                    @ Purdue University
+                  </span>
+                </div>
                 <div>August 2018 - March 2020</div>
                 <ul>
                   <li>

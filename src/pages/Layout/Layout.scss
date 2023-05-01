@@ -19,7 +19,6 @@
 
 .Section{
   min-height: 100vh;
-  width: 100%;
   overflow: hidden;
   width: clamp(300px, 50%, 8000px);
 
@@ -59,25 +58,30 @@
 .IntroductionHireMe{
   font-size: clamp(.25em, 3.75vw, .6em);
   padding-top: 5%;
+  color:$DarkThemeAccentColor;
 
   @media screen and (max-width: 600px) {
     align-self: center;
-    margin: 5%;
+    margin-top: 5%;
   }
 }
 
 .IntroductionResumeDownload{
   width: fit-content;
+  color:$DarkThemeTextColor;
   font-size: clamp(.175em, 2.5vw, .5em);
 
   padding: 1%;
   border-style: solid;
   border-width: 2px;
-  border-radius: 10px;
+  border-radius: 15px;
 
   @media screen and (max-width: 600px) {
     align-self: center;
-    margin: 5%;
+    margin: 1%;
+    border-radius: 10px;
+    padding: 2%;
+
   }
 }
 
@@ -129,6 +133,7 @@
 }
 
 .AboutMeToolsHeader{
+  color: $DarkThemeAccentColor;
   padding-top: 3%;
   font-size: clamp(.125em, 2vw, .35em);
 }
@@ -158,11 +163,14 @@
 }
 
 .MyExperienceContainer{
-  padding-bottom: 2.5%;
   height: 100%;
   align-self: center;
   width: 75%;
   overflow: scroll;
+
+  @media screen and (max-width: 600px) {
+    width:100%;
+  }
 }
 
 .MuiTabs-vertical{
@@ -170,6 +178,10 @@
   display: flex;
   flex-direction: row;
   overflow: scroll;
+
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+  }
 
   // border-style: solid;
   // border-color: white;
@@ -179,6 +191,13 @@
   display:flex;
   flex-direction: column;
   margin-right: 5%;
+
+  @media screen and (max-width: 600px) {
+    flex-direction: row;
+    overflow-x: scroll;
+    margin-right: 0%;
+    height: 41px;
+  }
 
   // border-style: solid;
   // border-color: lightgray;
@@ -194,6 +213,14 @@
   border-width: 0px;
   border-right-width: 2px;
   border-color: $Yellow;
+  flex-shrink: 0;
+
+  @media screen and (max-width: 600px) {
+    width: 100px;
+    height: 40px;  
+    border-right-width: 0px;
+    border-bottom-width: 2px;
+  }
 }
 
 .MuiTab-root:hover{
@@ -204,9 +231,6 @@
 
 
 .Mui-selected{
-  width: 150px;
-  height: 50px;
-
   color: $Yellow;
 
   background-color: #faeb9e1f;
@@ -215,6 +239,11 @@
 
   // border-style: solid;
   // border-color: gray;
+
+  @media screen and (max-width: 600px) {
+    border-right-width: 0px;
+    border-bottom-width: 2px;
+  }
 }
 
 .MuiTabPanel-root{
@@ -225,6 +254,10 @@
 
   // border-style: solid;
   // border-color: chartreuse;
+}
+
+.MyExperienceAltColor{
+  color: $Yellow;
 }
 
 
@@ -293,8 +326,12 @@
 
 .ContactMeHireMe{
   font-size: 2em;
-  padding-top: 5%;
+  padding-top: 20%;
   color: $Purple;
+
+  @media screen and (max-width: 600px) {
+    align-self: center;
+   }
 }
 
 .ContactMeResumeDownload{
@@ -305,6 +342,10 @@
   border-style: solid;
   border-width: 2px;
   border-radius: 10px;
+
+  @media screen and (max-width: 600px) {
+   align-self: center;
+  }
 }
 
 .ContactMeResumeDownload:hover{
