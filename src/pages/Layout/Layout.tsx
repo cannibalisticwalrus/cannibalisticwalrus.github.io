@@ -195,7 +195,12 @@ const Layout = () => {
               <TabPanel>
                 <div className="" id="Ford-SecurityTestingIntern">
                   <div className="">
-                    <div>Cybersecurity Testing Intern <span className="MyExperienceAltColor">@ Ford Motor Company</span></div>
+                    <div>
+                      Cybersecurity Testing Intern{" "}
+                      <span className="MyExperienceAltColor">
+                        @ Ford Motor Company
+                      </span>
+                    </div>
                     <div>May 2019-August 2019</div>
                   </div>
                   <div className="">
@@ -245,7 +250,12 @@ const Layout = () => {
               <TabPanel>
                 <div className="" id="Purdue-SecurityOperations">
                   <div className="">
-                    <div>Security Operations Officer <span className="MyExperienceAltColor">@ Purdue University</span></div>
+                    <div>
+                      Security Operations Officer{" "}
+                      <span className="MyExperienceAltColor">
+                        @ Purdue University
+                      </span>
+                    </div>
                     <div>May 2018-August 2018</div>
                   </div>
                   <div className="">
@@ -271,7 +281,12 @@ const Layout = () => {
                 </div>
               </TabPanel>
               <TabPanel>
-                <div>Software Developmer <span className="MyExperienceAltColor">@ Alta Via Consulting</span></div>
+                <div>
+                  Software Developmer{" "}
+                  <span className="MyExperienceAltColor">
+                    @ Alta Via Consulting
+                  </span>
+                </div>
                 <div>May 2017 - August 2017</div>
                 <ul>
                   <li>
@@ -286,7 +301,9 @@ const Layout = () => {
                 </ul>
               </TabPanel>
               <TabPanel>
-                <div>Teacher <span className="MyExperienceAltColor">@ Change</span></div>
+                <div>
+                  Teacher <span className="MyExperienceAltColor">@ Change</span>
+                </div>
                 <div>December 2020 - June 2021</div>
                 <ul>
                   <li>
@@ -298,7 +315,12 @@ const Layout = () => {
                   </li>
                 </ul>
 
-                <div>Resident Assisstant <span className="MyExperienceAltColor">@ Purdue University</span></div>
+                <div>
+                  Resident Assisstant{" "}
+                  <span className="MyExperienceAltColor">
+                    @ Purdue University
+                  </span>
+                </div>
                 <div>August 2018 - March 2020</div>
                 <ul>
                   <li>
