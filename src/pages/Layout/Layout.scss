@@ -321,8 +321,12 @@
 
 .ContactMeHireMe{
   font-size: 2em;
-  padding-top: 5%;
+  padding-top: 20%;
   color: $Purple;
+
+  @media screen and (max-width: 600px) {
+    align-self: center;
+   }
 }
 
 .ContactMeResumeDownload{
@@ -333,6 +337,10 @@
   border-style: solid;
   border-width: 2px;
   border-radius: 10px;
+
+  @media screen and (max-width: 600px) {
+   align-self: center;
+  }
 }
 
 .ContactMeResumeDownload:hover{
