@@ -1,0 +1,25 @@
+@import "../../Themes/Palettes.scss";
+
+.ResumeButton {
+  width: fit-content;
+  height: 75%;
+  color: $DarkThemeTextColor;
+  font-size: 1vw;
+
+  padding: .5% 2% .5% 2%;
+
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+
+  @media screen and (max-width: 600px) {
+    align-self: center;
+    margin: 1%;
+    border-radius: 10px;
+    padding: 2%;
+  }
+}
+
+.ResumeButton:hover {
+    color: $Purple;
+}
