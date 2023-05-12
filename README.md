@@ -1,27 +1,46 @@
-# What is this project
+# Getting Started with Create React App
 
-This project is a website that hosts my Resumes and Portfolios so people can interact with my work a little more than the average resume.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## What is the purpose of this project
+## Available Scripts
 
-Well, this project serves two functions.  The first is a resume that is a little more crafted and currated than what I can traditionally fit on a one-page pdf.  The second function is to prove that I do know (at least) the basics of full stack development (although at the moment it only proves Front-End Development).
+In the project directory, you can run:
 
-### Well that is kind of cool.  Done before but still interesting.
+### `npm start`
 
-I am not trying to blow any minds here.  Just trying to show and share my knowledge (hence why its publicly accessable).
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### Is there anything else that you want us to know
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-I mean, sure.  I like Rock Climbing and Long Walks on the Beach.  Idk.
+### `npm test`
 
-As for the Website, it is programmed mostly using React, Typescript and Sass.  I do know javascript but I find that Typescript helps me create much cleaner code than javascript can do by itself.  Luckily typescript is transpiled into javascript so it is the same at runtime and (although I am still learning and understanding this) it only takes removing the forced types in typescript to completely convert typescript to javascript.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Sass is used because...well because it is just a better evolution of CSS but not as frameworky as Emotion or other stylers.  As a result, it is a lot easier for me to read, understand and work with.
+### `npm run build`
 
-### Where do I go if I want to know more about you
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Feel free to visit the site and use any of the contact me options.  
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Can I use this site as a base for my own?
-Sure. I would be lying if I didn't build this site (loosly) off of a few great portfolio sites.
-All I ask is that you give me credit and don't pass my style/personality/resume/achievments off as your own.  Fill it out with your own cool stuff.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).

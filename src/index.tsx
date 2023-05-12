@@ -1,27 +1,11 @@
-import React from "react";
-import { HashRouter, Routes, Route } from "react-router-dom";
-import ReactDOM from "react-dom/client";
-import reportWebVitals from "./reportWebVitals";
-import "./index.css";
-import Layout from "./pages/Layout/Layout";
-import Portfolio from "./pages/Portfolio/Portfolio";
-import NoPage from "./pages/NoPage";
-
-export default function App() {
-  return (
-    <HashRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route path='Portfolio' element={<Portfolio />}></Route>
-          <Route path='*' element={<NoPage />} />
-        </Route>
-      </Routes>
-    </HashRouter>
-  );
-}
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
-  document.getElementById("root") as HTMLElement
+  document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
