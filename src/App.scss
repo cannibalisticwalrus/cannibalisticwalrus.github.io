@@ -2,6 +2,7 @@
 
 .Root{
   background-color: $DarkThemePrimaryColor;
+  overflow:hidden;
 }
 
 .PageContainer {
@@ -11,7 +12,6 @@
   overflow-x: hidden;
   overflow-y: scroll;
 
-  //font-size: 4vw;
   font-size: 5rem;;
 
   display: flex;
@@ -19,40 +19,6 @@
   justify-content: space-between;
   align-items: center;
   gap: 10%;
-}
-
-.PageHeader{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 2%;
-  font-size: clamp(.75em, 2vw, 1.5em);
-  // width: 100vh;
-  position: sticky;
-  top: 0px;
-  padding: 1%;
-
-}
-
-.PageHeaderLink{
-  color: $DarkThemeTextColor;
-  
-}
-.RedHover:hover{
-  color: $Red;
-}
-.OrangeHover:hover{
-  color:$Orange;
-}
-.YellowHover:hover{
-  color:$Yellow;
-}
-.GreenHover:hover{
-  color:$Green;
-}
-.BlueHover:hover{
-  color:$Blue;
 }
 
 .Section{
@@ -66,7 +32,7 @@
 }
 
 .Introduction{
-  color: $LightThemePrimaryColor;
+  color: $DarkThemeTextColor;
 
   display: flex;
   flex-direction: column;
@@ -96,9 +62,9 @@
 .IntroductionHireMe{
   font-size: clamp(.25em, 3.75vw, .6em);
   padding-top: 5%;
-  color:$DarkThemeAccentColor;
+  color:#9eabc5;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1007px) {
     align-self: center;
     margin-top: 5%;
   }
@@ -114,7 +80,7 @@
   border-width: 2px;
   border-radius: 15px;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1007px) {
     align-self: center;
     margin: 1%;
     border-radius: 10px;
@@ -134,7 +100,7 @@
 }
 
 .AboutMe{
-  color: $LightThemePrimaryColor;
+  color: $DarkThemeTextColor;
 
   display: flex;
   flex-direction: column;
@@ -142,7 +108,7 @@
 }
 
 .AboutMeHeader{
-  font-size: clamp(.25em, 2vw, .5em);
+  font-size: clamp(.5em, 2vw, .5em);
   color: $Orange
 }
 
@@ -152,35 +118,35 @@
   justify-content: space-between;
   padding: 2%;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1007px) {
     flex-direction: column;
   }
 }
 
 .AboutMeParagraph{
-  font-size: clamp(.125em, 1vw, .35em);
+  font-size: clamp(.2em, 1vw, .35em);
   width: 47.5%;
   .AboutMeAltColor{
     color:$Orange;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1007px) {
     width: 100%;
     padding-top: 2.5%;
   }
 }
 
 .AboutMeToolsHeader{
-  color: $DarkThemeAccentColor;
+  color: #9eabc5;
   padding-top: 3%;
-  font-size: clamp(.125em, 2vw, .35em);
+  font-size: clamp(.2em, 2vw, .35em);
 }
 
 .AboutMeTools{
   align-self: center;
   display: grid;
   grid-template-columns: repeat(2, minmax(100px, 300px));
-  font-size: clamp(.125em, 1vw, .35em);
+  font-size: clamp(.2em, 1vw, .35em);
   padding-left: 10px;
 }
 
@@ -190,7 +156,7 @@
   display: flex;
   flex-direction: column;
 
-  font-size: clamp(.125em, 1vw, .35em);
+  font-size: clamp(.2em, 1vw, .35em);
   overflow: scroll;
 }
 
@@ -206,7 +172,7 @@
   width: 75%;
   overflow: scroll;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1007px) {
     width:100%;
   }
 }
@@ -217,7 +183,7 @@
   flex-direction: row;
   overflow: scroll;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1007px) {
     flex-direction: column;
   }
 
@@ -230,7 +196,7 @@
   flex-direction: column;
   margin-right: 5%;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1007px) {
     flex-direction: row;
     overflow-x: scroll;
     margin-right: 0%;
@@ -253,7 +219,7 @@
   border-color: $Yellow;
   flex-shrink: 0;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1007px) {
     width: 100px;
     height: 40px;  
     border-right-width: 0px;
@@ -278,7 +244,7 @@
   // border-style: solid;
   // border-color: gray;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1007px) {
     border-right-width: 0px;
     border-bottom-width: 2px;
   }
@@ -367,7 +333,7 @@
   padding-top: 20%;
   color: $Purple;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1007px) {
     align-self: center;
    }
 }
@@ -381,7 +347,7 @@
   border-width: 2px;
   border-radius: 10px;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1007px) {
    align-self: center;
   }
 }

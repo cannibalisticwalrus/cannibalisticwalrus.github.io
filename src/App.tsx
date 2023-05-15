@@ -3,28 +3,12 @@ import { FiLinkedin, FiGithub, FiMail } from "react-icons/fi";
 import { TbBrandBlogger } from "react-icons/tb";
 import { Tabs, Tab, TabsList, TabPanel } from "@mui/base";
 import ResumeButton from "./Components/ResumeButton/ResumeButton";
+import Header from "./Components/Header/Header";
 
 const App = () => {
   return (
     <div className="Root">
-      <div className="PageHeader">
-        <a className="PageHeaderLink RedHover" href="#Introduction">
-          Intro
-        </a>
-        <a className="PageHeaderLink OrangeHover" href="#AboutMe">
-          About Me
-        </a>
-        <a className="PageHeaderLink YellowHover" href="#Experience">
-          Experience
-        </a>
-        <a className="PageHeaderLink GreenHover" href="#Projects">
-          Projects
-        </a>
-        <a className="PageHeaderLink BlueHover" href="#ContactMe">
-          Contact Me
-        </a>
-        <ResumeButton></ResumeButton>
-      </div>
+      <Header></Header>
       <div className="PageContainer">
         <div className="Section" id="Introduction">
           <div className="Introduction">
