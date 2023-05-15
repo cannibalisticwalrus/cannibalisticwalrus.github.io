@@ -10,6 +10,9 @@ const Header = () => {
   const handleShowHeader = () => {
     setShowHeader(!showHeader);
   };
+  const toggleOffHeader = () => {
+    setShowHeader(false);
+  }
 
   useEffect(() => {
     const onResize = () => {
@@ -50,19 +53,19 @@ const Header = () => {
         <div className="Sidebar">
           <div className="SidebarLinks">
             {" "}
-            <a className="PageHeaderLink RedHover" href="#Introduction">
+            <a className="PageHeaderLink RedHover" href="#Introduction" onClick={toggleOffHeader}>
               Intro
             </a>
-            <a className="PageHeaderLink OrangeHover" href="#AboutMe">
+            <a className="PageHeaderLink OrangeHover" href="#AboutMe" onClick={toggleOffHeader}>
               About Me
             </a>
-            <a className="PageHeaderLink YellowHover" href="#Experience">
+            <a className="PageHeaderLink YellowHover" href="#Experience" onClick={toggleOffHeader}>
               Experience
             </a>
-            <a className="PageHeaderLink GreenHover" href="#Projects">
+            <a className="PageHeaderLink GreenHover" href="#Projects" onClick={toggleOffHeader}>
               Projects
             </a>
-            <a className="PageHeaderLink BlueHover" href="#ContactMe">
+            <a className="PageHeaderLink BlueHover" href="#ContactMe" onClick={toggleOffHeader}>
               Contact Me
             </a>
             <ResumeButton></ResumeButton>

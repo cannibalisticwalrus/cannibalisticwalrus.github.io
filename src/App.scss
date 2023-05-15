@@ -124,7 +124,7 @@
 }
 
 .AboutMeParagraph{
-  font-size: clamp(.2em, 1vw, .35em);
+  font-size: clamp(.175em, 1vw, .35em);
   width: 47.5%;
   .AboutMeAltColor{
     color:$Orange;
@@ -146,7 +146,7 @@
   align-self: center;
   display: grid;
   grid-template-columns: repeat(2, minmax(100px, 300px));
-  font-size: clamp(.2em, 1vw, .35em);
+  font-size: clamp(.175em, 1vw, .35em);
   padding-left: 10px;
 }
 
