@@ -32,7 +32,7 @@
 }
 
 .Introduction{
-  color: $LightThemePrimaryColor;
+  color: $DarkThemeTextColor;
 
   display: flex;
   flex-direction: column;
@@ -62,7 +62,7 @@
 .IntroductionHireMe{
   font-size: clamp(.25em, 3.75vw, .6em);
   padding-top: 5%;
-  color:$DarkThemeAccentColor;
+  color:#9eabc5;
 
   @media screen and (max-width: 1007px) {
     align-self: center;
@@ -100,7 +100,7 @@
 }
 
 .AboutMe{
-  color: $LightThemePrimaryColor;
+  color: $DarkThemeTextColor;
 
   display: flex;
   flex-direction: column;
@@ -137,7 +137,7 @@
 }
 
 .AboutMeToolsHeader{
-  color: $DarkThemeAccentColor;
+  color: #9eabc5;
   padding-top: 3%;
   font-size: clamp(.2em, 2vw, .35em);
 }
