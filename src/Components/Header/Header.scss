@@ -1,0 +1,96 @@
+@import "../../Themes/Palettes.scss";
+
+.PageHeader {
+  height: 8vh;
+  padding-right: 1%;
+  right: 0px;
+  position: fixed;
+  width: 100%;
+  background-color: $DarkThemePrimaryColor;
+}
+
+.SmallScreenHeader {
+  visibility: hidden;
+  display: none;
+  color: $DarkThemeTextColor;
+
+  display: flex;
+  position:absolute;
+  top: 5px;
+  right: 5px;
+
+  @media screen and (max-width: 768px) {
+    visibility: visible;
+  }
+}
+
+.LargeScreenHeader {
+  visibility: visible;
+
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2%;
+
+  padding: 1%;
+
+  font-size: clamp(1em, 2vw, 1.5em);
+
+  @media screen and (max-width: 768px) {
+    visibility: hidden;
+  }
+}
+
+.PageHeaderLink {
+  color: $DarkThemeTextColor;
+  white-space: nowrap;
+}
+
+.RedHover:hover {
+  color: $Red;
+}
+.OrangeHover:hover {
+  color: $Orange;
+}
+.YellowHover:hover {
+  color: $Yellow;
+}
+.GreenHover:hover {
+  color: $Green;
+}
+.BlueHover:hover {
+  color: $Blue;
+}
+
+.Sidebar{
+    position:absolute;
+    right: 0px;
+    top: 0px;
+
+    height: 100vh;
+    width: min(75%, 350px);
+    z-index: -100;
+
+    background-color: $DarkThemeAccentColor;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SidebarLinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 5.75vw;
+    gap: 5%;
+
+    .ResumeButton{
+        font-size: 5.5vw;
+        border-width: 2px;
+    }
+}
