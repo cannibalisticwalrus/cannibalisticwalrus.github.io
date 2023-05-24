@@ -2,8 +2,11 @@ import "./App.scss";
 import { FiLinkedin, FiGithub, FiMail } from "react-icons/fi";
 import { TbBrandBlogger } from "react-icons/tb";
 import { Tabs, Tab, TabsList, TabPanel } from "@mui/base";
-import ResumeButton from "./Components/ResumeButton/ResumeButton";
+//import ResumeButton from "./Components/ResumeButton/ResumeButton";
 import Header from "./Components/Header/Header";
+import GodotImage from "./Files/Image_GodotFramework.png";
+import TTRPGImage from "./Files/Image_TTRPGSite.png";
+import PokerChips from "./Files/PokerChipTeaser.png";
 
 const App = () => {
   return (
@@ -351,25 +354,66 @@ const App = () => {
         <div className="Section" id="Projects">
           <div className="Projects">
             <div className="ProjectsHeader">Previous Projects</div>
-            <div className="ProjectsParagraph">
-              This section is under construction :/{" "}
+
+            <div className="ProjectsParagraph">Here are a few of the most visible projects that I am/have worked on.  Links are provided once a project is accessable</div>
+            <div className="ProjectContainer">
+              <div className="ProjectItem">
+                <img
+                  className="ProjectItemImage"
+                  src={GodotImage}
+                  alt="Failed to Render"
+                ></img>
+                <div className="ProjectItemTextContainer">
+                  <div className="ProjectItemTextHeader">
+                    Gameboard Resources for Godot Creators
+                  </div>
+                  <div className="ProjectItemTextPara">
+                    In developing a personal project (the thing on the right), I
+                    realized that a lot of the functions and resources I was
+                    making was foundational to the creation of ANY type of
+                    gameboard simulating game. As a result, I open-sourced it
+                    and have given it back to the community. It occasionally
+                    sees new features as I develop features for my project that
+                    fit the theme of the framework/library/resources.
+                  </div>
+                  <div className="ProjectTag">GDScript (Python)</div>
+                  <div className="ProjectTag">Game Dev</div>
+                  <div className="ProjectTag">Multi-Platform</div>
+                </div>
+              </div>
+              <div className="ProjectItem">
+                <img
+                  className="ProjectItemImage-scale"
+                  src={TTRPGImage}
+                  alt="Failed to Render"
+                ></img>
+                <div className="ProjectItemTextContainer">
+                  <div className="ProjectItemTextHeader">
+                    A Landing Page for a Tabletop RPG Combat Manager
+                  </div>
+                  <div className="ProjectItemTextPara">
+                    This project is a responsive landing page for a Tablettop
+                    RPG Combat Manager that I am working on as a side project.
+                    It uses a fun, brutalist-ish, design and is inspired by
+                    80s-90s rollerrinks.
+                  </div>
+                  <div className="ProjectTag">ReactJS</div>
+                  <div className="ProjectTag">TailwindCSS</div>
+                </div>
+              </div>
+              <div className="ProjectItem">
+                <img
+                  className="ProjectItemImage-scale"
+                  src={PokerChips}
+                  alt="Failed to Render"
+                ></img>
+                <div className="ProjectItemTextContainer">
+                  <div className="ProjectItemTextHeader center">
+                    Coming soon...
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="ProjectsParagraph">
-              Come back soon to see a few relevant projects that I am working
-              on. In the meantime you can checkout my github or my blog.
-            </div>
-            <a
-              className="ProjectsLink"
-              href="https://github.com/cannibalisticwalrus"
-            >
-              My Github
-            </a>
-            <a
-              className="ProjectsLink"
-              href="https://stephenjackiw.blogspot.com"
-            >
-              My Blog
-            </a>
           </div>
         </div>
         <div className="Section" id="ContactMe">
@@ -385,7 +429,7 @@ const App = () => {
             <div className="ContactMeLinksContainer">
               <a
                 className="ContactMeLink"
-                href="https://github.com/cannibalisticwalrus"
+                href="https://linkedin.com/in/jackiw-stephen"
               >
                 <FiLinkedin />
               </a>
