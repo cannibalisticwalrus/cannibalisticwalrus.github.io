@@ -34,7 +34,7 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  gap: 2%;
+  gap: 1%;
 
   padding: 1%;
 
@@ -48,6 +48,11 @@
 .PageHeaderLink {
   color: $DarkThemeTextColor;
   white-space: nowrap;
+  font-size: .5em;
+}
+
+.PageHeaderLink:hover {
+  font-size: .65em;
 }
 
 .RedHover:hover {
