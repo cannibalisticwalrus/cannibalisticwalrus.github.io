@@ -5,7 +5,7 @@ import { Squash as Hamburger } from "hamburger-react";
 import { useEffect, useState } from "react";
 
 const Header = () => {
-  const isWindowWidthSmall = () => window.innerWidth <= 768;
+//  const isWindowWidthSmall = () => window.innerWidth <= 768;
   const [showHeader, setShowHeader] = useState(false);
   const handleShowHeader = () => {
     setShowHeader(!showHeader);
