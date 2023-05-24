@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.f4bd4275.css",
-    "main.js": "/static/js/main.5fdade2a.js",
+    "main.css": "/static/css/main.063d6742.css",
+    "main.js": "/static/js/main.27edab92.js",
     "static/js/787.37faa4c4.chunk.js": "/static/js/787.37faa4c4.chunk.js",
+    "static/media/PokerChipTeaser.png": "/static/media/PokerChipTeaser.f8726c4d6353e7b9ff1f.png",
+    "static/media/Image_TTRPGSite.png": "/static/media/Image_TTRPGSite.5fb7193dc01cca554bd5.png",
     "static/media/resume.pdf": "/static/media/resume.635d3611da9a54bc7ae3.pdf",
+    "static/media/Image_GodotFramework.png": "/static/media/Image_GodotFramework.ac36e17557437c3ec864.png",
     "index.html": "/index.html",
-    "main.f4bd4275.css.map": "/static/css/main.f4bd4275.css.map",
-    "main.5fdade2a.js.map": "/static/js/main.5fdade2a.js.map",
+    "main.063d6742.css.map": "/static/css/main.063d6742.css.map",
+    "main.27edab92.js.map": "/static/js/main.27edab92.js.map",
     "787.37faa4c4.chunk.js.map": "/static/js/787.37faa4c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4bd4275.css",
-    "static/js/main.5fdade2a.js"
+    "static/css/main.063d6742.css",
+    "static/js/main.27edab92.js"
   ]
 }
