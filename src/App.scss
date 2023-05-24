@@ -281,6 +281,25 @@
   padding-bottom: 2.5%;
 }
 
+.ProjectContainer{
+  display: flex;
+  flex-direction: row;
+  gap: 1%;
+  width: 100%;
+}
+
+.ProjectItem{
+  background-color: hsl(144, 36%, 29%);
+  border-width: 0;
+  width: 30%;
+  height: 500px;
+  align-self: flex-end;
+}
+
+.ProjectItem:hover{
+  opacity: 75%;
+}
+
 .ProjectsParagraph{
   padding-bottom: 2.5%;
 }

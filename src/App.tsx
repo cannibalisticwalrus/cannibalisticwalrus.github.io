@@ -351,6 +351,18 @@ const App = () => {
         <div className="Section" id="Projects">
           <div className="Projects">
             <div className="ProjectsHeader">Previous Projects</div>
+            <div className="ProjectContainer">
+              <div className="ProjectItem">
+                <div>A Gameboard Framework for the Godot Enginer</div>
+              </div>
+              <div className="ProjectItem">
+                <div>A Landing Page for a Tabletop RPG Combat Manager</div>
+              </div>
+              <div className="ProjectItem">
+                <div>Coming soon...</div>
+              </div>
+            </div>
+
             <div className="ProjectsParagraph">
               This section is under construction :/{" "}
             </div>
