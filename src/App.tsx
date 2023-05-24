@@ -353,35 +353,19 @@ const App = () => {
             <div className="ProjectsHeader">Previous Projects</div>
             <div className="ProjectContainer">
               <div className="ProjectItem">
-                <div>A Gameboard Framework for the Godot Enginer</div>
+                <div className="ProjectItemText">
+                  A Gameboard Framework for the Godot Engine
+                </div>
               </div>
               <div className="ProjectItem">
-                <div>A Landing Page for a Tabletop RPG Combat Manager</div>
+                <div className="ProjectItemText">
+                  A Landing Page for a Tabletop RPG Combat Manager
+                </div>
               </div>
               <div className="ProjectItem">
-                <div>Coming soon...</div>
+                <div className="ProjectItemText">Coming soon...</div>
               </div>
             </div>
-
-            <div className="ProjectsParagraph">
-              This section is under construction :/{" "}
-            </div>
-            <div className="ProjectsParagraph">
-              Come back soon to see a few relevant projects that I am working
-              on. In the meantime you can checkout my github or my blog.
-            </div>
-            <a
-              className="ProjectsLink"
-              href="https://github.com/cannibalisticwalrus"
-            >
-              My Github
-            </a>
-            <a
-              className="ProjectsLink"
-              href="https://stephenjackiw.blogspot.com"
-            >
-              My Blog
-            </a>
           </div>
         </div>
         <div className="Section" id="ContactMe">
@@ -397,7 +381,7 @@ const App = () => {
             <div className="ContactMeLinksContainer">
               <a
                 className="ContactMeLink"
-                href="https://github.com/cannibalisticwalrus"
+                href="https://linkedin.com/in/jackiw-stephen"
               >
                 <FiLinkedin />
               </a>
