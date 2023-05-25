@@ -399,6 +399,7 @@ const App = () => {
                   </div>
                   <div className="ProjectTag">ReactJS</div>
                   <div className="ProjectTag">TailwindCSS</div>
+                  <div className="ProjectTag">Typescript</div>
                 </div>
               </div>
               <div className="ProjectItem">
@@ -411,17 +412,21 @@ const App = () => {
                   <div className="ProjectItemTextHeader center">
                     Coming soon...
                   </div>
+                  <div className="ProjectTag">Python</div>
+                  <div className="ProjectTag">Flask</div>
+                  <div className="ProjectTag">ReactJS</div>
+                  <div className="ProjectTag">AWS</div>
                 </div>
               </div>
+            </div>
+            <div className="ProjectContainerNotice">
+                This section's mobile version is still under construction.  Please try using a computer or landscape mode on a tablet.
             </div>
           </div>
         </div>
         <div className="Section" id="ContactMe">
           <div className="ContactMe">
             <div className="ContactMeHeader">Want to get a hold of me?</div>
-            <div className="ContactMeParagraph">
-              This site is still under construction but...
-            </div>
             <div className="ContactMeParagraph">
               If you have a question, want to get a hold of me, or checkout what
               I am doing feel free to use the links below.
